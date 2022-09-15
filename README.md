@@ -18,7 +18,7 @@ The following exercises require access to a BTP global account and a tenant of S
 
 **SAP BTP Sub Account**: XP260-0XY > xp260-0XY
 
-😁 We need a list of URLs here that people can copy/paste. Can we put this here? 😁
+😁 We need a list of URLs here that people can copy/paste. Can we put this here or in "Getting Started" below? 😁
 
 **Identity Authentication Service**: https://bestrunXY.accounts.ondemand.com/admin
 
