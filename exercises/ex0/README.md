@@ -1,4 +1,4 @@
-# Level 1 Heading
+# Accessing the BTP services
 
 The following exercises require access to a BTP global account and a tenant of SAP Cloud Identity Services - Identity Authentication.
 
@@ -11,6 +11,10 @@ The following exercises require access to a BTP global account and a tenant of S
 😁 We need a list of URLs here that people can copy/paste. Can we put this here ? 😁
 
 **Identity Authentication Service**: https://bestrunXY.accounts.ondemand.com/admin
+
+| Seat Number | Global Account Cockpit | Identity Authentication Service console |
+| ----------- | ---------------------- | --------------------------------------- |
+| 01 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/?????????????/accountModel&//?section=SubaccountsSection&view=TilesView | https://bestrun01.accounts.ondemand.com/ |
 
 ## Level 2 Heading
 
