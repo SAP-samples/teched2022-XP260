@@ -1,16 +1,20 @@
-# Session ID - Session Title
+# XP260 - Configuring SAP BTP Services Securely
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session XP260 - Configuring SAP BTP Services Securely.  
 
 ## Overview
 
-This session introduces attendees to...
+In this session attendees will learn about the recently published security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The following exercises require access to a BTP global account and a tenant of SAP Cloud Identity Services - Identity Authentication.
+
+**Seat number**: XY
+**SAP BTP Global Account**: XP260-0XY
+**Identity Authentication Service**: 
 
 ## Exercises
 
