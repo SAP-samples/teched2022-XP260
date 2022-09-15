@@ -1,4 +1,4 @@
-# Exercise 1 - Exercise 1 Description
+# Exercise 1 - Using a custom identity provider to authenticate platform users
 
 In this exercise, we will create...
 
