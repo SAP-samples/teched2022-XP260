@@ -10,17 +10,7 @@ In this session attendees will learn about the recently published security recom
 
 ## Requirements
 
-The following exercises require access to a BTP global account and a tenant of SAP Cloud Identity Services - Identity Authentication.
-
-**Seat number**: XY
-
-**SAP BTP Global Account**: XP260-0XY
-
-**SAP BTP Sub Account**: XP260-0XY > xp260-0XY
-
-😁 We need a list of URLs here that people can copy/paste. Can we put this here or in "Getting Started" below? 😁
-
-**Identity Authentication Service**: https://bestrunXY.accounts.ondemand.com/admin
+None
 
 ## Exercises
 
