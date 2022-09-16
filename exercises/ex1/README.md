@@ -88,6 +88,10 @@ In the previous exercise, the user from the custom identity provider was given a
 
 9. To test the configuration, switch your user to the one from the custom identity provider. Choose the menu item Security --> Trust Configuration. Click on the "Open" link in the row for your custom identity provider in the section "Custom Identity Provider for Platform Users".
 
+10. The logon page for the custom identity provider is shown. Enter your credentials for this identity provider.
+
+11. After authentication, the subaccount overview page is displayed as the user from the custom identity provider is now also a member of the subaccount and has the necessary access.
+
 ## Summary
 
 You've now ...
