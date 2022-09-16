@@ -1,6 +1,6 @@
 # Exercise 1 - Using a custom identity provider to authenticate platform users
 
-In this exercise, we will create...
+In this exercise, we will add a custom identity provider to the SAP BTP Cockpit for the global account so that users accessing the cockpit can authenticate with the custom identity provider instead of the default SAP ID Service.
 
 ## Exercise 1.1 - Configure the global account cockpit to trust identity provider
 
@@ -26,34 +26,39 @@ First, we will change the trust configuration in the SAP BTP Cockpit to establis
 8. Another logon page is displayed. Note that the URL is now "bestrunXY.accounts.ondemand.com" and the logon screen has changed. You are now authenticating with your custom identity provider instead of SAP ID Service.
 <br><img src="/exercises/ex1/images/Custom_IdP_Logon.png" width="50%">
 
+9. Authenticate by using the credentials for your custom identity provider.
+10. A message is displayed that you are logged on, but the user from your custom identity provider is not associated with any global account, yet. We will do this in exercise 1.2
+
+
+## Exercise 1.2 - Giving a user access to the global account
+
+In exercise 1.1 we enabled users to authenticate with the custom identity provider when they try to access the cockpit. However, the user from the custom identity provider was not allowed to access the cockpit user interface. In this exercise we will give the user from the custom identity provider access to the specific global account.
+
+1. Go to the browser tab with the SAP BTP Cockpit. In this tab, you are still authenticated with your SAP ID Service user. Choose the menu item Security --> Users
+
+2. Review the list of users associated with the global account. Only users from the default identity provider are listed.
+<br><img src="/exercises/ex1/images/Global_Account_Users_Blurred.png" width="50%">
+
+3. Click on the "Create" button
+
+4. In the "New User" dialog, choose your custom identity provider, enter the user name and e-mail address of your user in the custom identity provider and click on "Create".
+<br><img src="/exercises/ex1/images/New_User.png" width="50%">
+
+5. The user is added to the list and is now associated with the global account. However, the user does not yet have any authorizations. To change this, click on the ">" character at the right end of the row for the new user. A dialog with the user details is displayed. So far, no role collections were assigned to the user. Click the "Assign Role Collection" button. 
+
+6. In the "Assign Role Collection" dialog, select the entry "Global Account Administrator" and click on "Assign Role Collection".
+<br><img src="/exercises/ex1/images/Assign_Role_Collection.png" width="50%">
+
+7.The role collection "Global Account Administrator" is now shown in the list of the user's role collections
+
+8. In the SAP BTP Cockpit, choose again the menu item Security --> Trust Configuration and click on "Open" in the row for your custom identity provider
+
+9. On the logon page of the custom identity provider, authentictate with your credentials for the custom identity provider. This time the SAP BTP Cockpit for the global account is displayed
+
+10. Click on your user name in the upper right corner of the cockpit and choose the menu item "User Information". You are indeed signed in with the user from your custom identity provider, who is now administrator of the global account. 
 
 
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ). 
-```
-
-
-
-## Exercise 1.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
 
 
 ## Summary
