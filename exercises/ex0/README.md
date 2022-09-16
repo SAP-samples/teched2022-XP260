@@ -1,6 +1,6 @@
 # Accessing the BTP services
 
-In the following list you will find the links to the SAP BTP Cockpit and SAP Cloud Identity Services - Identity Authentication admin console that are assigned to your seat in this workshop. 
+In the following list you will find the links to the SAP BTP Cockpit and SAP Cloud Identity Services - Identity Authentication admin console that are assigned to your seat in this workshop. The speakers will make the credentials for 2 users available to you, one user in SAP ID Service and one user in your custom identity provider listed below.
 
 **Seat number**: XY
 
