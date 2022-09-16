@@ -74,7 +74,7 @@ In the previous exercise, the user from the custom identity provider was given a
 3. Logoff from the SAP BTP Cockpit. Open the SAP BTP Cockpit URL again in the browser and authenticate with your SAP ID Service credentials. Make sure that you use the URL in the format https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/. If the "?idp=" parameter was in the URL, you would be taken to your custom identity provider instead.
 
 4. In the account explorer, click again on the subaccount. As your SAP ID Service user is already a member of the subaccount, you can access the subaccount overview page
-<br><img src="/exercises/ex1/images/SubaccountBlur.png" width="50%">
+<br><img src="/exercises/ex1/images/Subaccount_Blur.png" width="50%">
 
 
 
