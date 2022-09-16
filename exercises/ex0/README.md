@@ -1,6 +1,6 @@
 # Accessing the BTP services
 
-The following exercises require access to a BTP global account and a tenant of SAP Cloud Identity Services - Identity Authentication.
+In the following list you will find the links to the SAP BTP Cockpit and SAP Cloud Identity Services - Identity Authentication admin console that are assigned to your seat in this workshop. 
 
 **Seat number**: XY
 
