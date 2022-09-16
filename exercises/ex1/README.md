@@ -21,7 +21,7 @@ First, we will change the trust configuration in the SAP BTP Cockpit to establis
 
 6. In the dialog "Establish Trust to Custom Identity Provider", choose the entry for your seat, as listed on the [Getting Started](/exercises/ex0) page, and click on "Establish Trust" to confirm.
 
-7. A new section was added to the list of identity providers, labeled "Custom Identity Provider for Platform Users". Your customer identity provider is listed as "bestrunXY-platform". Click on the "Open" link. 
+7. A new section was added to the list of identity providers, labeled "Custom Identity Provider for Platform Users". Your custom identity provider is listed as "bestrunXY-platform". Click on the "Open" link. 
 
 8. Another logon page is displayed. Note that the URL is now "bestrunXY.accounts.ondemand.com" and the logon screen has changed. You are now authenticating with your custom identity provider instead of SAP ID Service.
 <br><img src="/exercises/ex1/images/Custom_IdP_Logon.png" width="50%">
