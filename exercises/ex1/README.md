@@ -10,11 +10,12 @@ First, we will change the trust configuration in the SAP BTP Cockpit to establis
 
 2. Note that the URL switches to "accounts.sap.com" and the login screen of the SAP ID Service is displayed
 <br>![](/exercises/ex1/images/SAP_ID_Service.png | width=100)
+<br><img src="/exercises/ex1/images/SAP_ID_Service.png" width="100">
 
 3. Enter your credentials for SAP ID Service, which is the default identity provider for any new BTP global account
 
 4. In the SAP BTP Cockpit Accdount Explorer, choose the menu item Security --> Trust Configuration
-<br>![](/exercises/ex1/images/SAP_BTP_Cockpit_Account_Explorer.png | width=50%)
+<br>![](/exercises/ex1/images/SAP_BTP_Cockpit_Account_Explorer.png)
 
 2.	Insert this line of code.
 ```abap
