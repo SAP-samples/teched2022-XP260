@@ -76,7 +76,17 @@ In the previous exercise, the user from the custom identity provider was given a
 4. In the account explorer, click again on the subaccount. As your SAP ID Service user is already a member of the subaccount, you can access the subaccount overview page
 <br><img src="/exercises/ex1/images/Subaccount_Blur.png" width="50%">
 
+5. Just like for the global account, click on the menu item Security --> Users of the subaccount overview. You will see the list of subaccount members. Click on "Create".
 
+6. The "New User" dialog looks just like for the global account. Choose your custom identity provider and enter the user name and e-mail address for your user in the custom identity provider. Then click on "Create".
+
+7. When the new entry if displayed in the list of members, click on the ">" character to display the details of the new subaccount member. As for the global account, the user initially has no role collections assigned.
+
+8. Click on "Assign Role Collection", select the following 4 entries: "Cloud Connector Administrator", "Connectivity and Destination Administrator", "Destination Administrator" and "Subaccount Administrator" and click on "Assign Role Collection"
+<br><img src="/exercises/ex1/images/Assign_Role_Collection_Subaccount.png
+" width="50%">
+
+9. To test the configuration, switch your user to the one from the custom identity provider. Choose the menu item Security --> Trust Configuration. Click on the "Open" link in the row for your custom identity provider in the section "Custom Identity Provider for Platform Users".
 
 ## Summary
 
