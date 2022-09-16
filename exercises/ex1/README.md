@@ -13,7 +13,7 @@ First, we will change the trust configuration in the SAP BTP Cockpit to establis
 
 3. Enter your credentials for SAP ID Service, which is the default identity provider for any new BTP global account
 
-4. In the SAP BTP Cockpit Accdount Explorer, choose the menu item Security --> Trust Configuration
+4. In the SAP BTP Cockpit Account Explorer, choose the menu item Security --> Trust Configuration
 <br><img src="/exercises/ex1/images/SAP_BTP_Cockpit_Account_Explorer.png" width="50%">
 
 5. So far, only the default identity provider is configured, which is the SAP ID Service. Click on "Establish Trust" to add your custom identity provider
@@ -53,12 +53,12 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 
 8. In the SAP BTP Cockpit, choose again the menu item Security --> Trust Configuration and click on "Open" in the row for your custom identity provider
 
-9. On the logon page of the custom identity provider, authentictate with your credentials for the custom identity provider. This time the SAP BTP Cockpit for the global account is displayed
+9. On the logon page of the custom identity provider, authenticate with your credentials for the custom identity provider. This time the SAP BTP Cockpit for the global account is displayed
 
 10. Click on your user name in the upper right corner of the cockpit and choose the menu item "User Information". You are indeed signed in with the user from your custom identity provider, who is now administrator of the global account.
 
 :bulb: How does the browser know, which identity provider to use for authentication? It is specified in the URL! 
-- To use the default identity provder, in this case SAP ID Service, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/...
+- To use the default identity provider, in this case SAP ID Service, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/...
 - To use a specific custom identity provider, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit/?idp=bestrun01.accounts.ondemand.com#/globalaccount/...
 
 
@@ -66,7 +66,7 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 
 In the previous exercise, the user from the custom identity provider was given access to the global account. However, this does not mean that the user can access any subaccount. In this exercise we will enable the user to also access a subaccount.
 
-1. From the previous exercise you are still signed into the cockpit with the user from the custom identity provider. Choose the menu item "Acccount Explorer" and click on the subaccount tile. 
+1. From the previous exercise you are still signed into the cockpit with the user from the custom identity provider. Choose the menu item "Account Explorer" and click on the subaccount tile. 
 <br><img src="/exercises/ex1/images/Subaccount_Tile.png" width="50%">
 
 2. You receive an error message that your user is not a member of the subaccount. The user from the custom identity provider is only associated with the global account, no subaccount.
