@@ -59,7 +59,7 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 
 :bulb: How does the browser know, which identity provider to use for authentication? It is specified in the URL! 
 - To use the default identity provder, in this case SAP ID Service, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/...
-- To use a specific custom identity provider, call the URL https://cockpit.eu10.hana.ondemand.com/cockpit/?idp=bestrun01.accounts.ondemand.com#/globalaccount/...
+- To use a specific custom identity provider, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit/?idp=bestrun01.accounts.ondemand.com#/globalaccount/...
 
 
 ## Exercise 1.3 - Giving a user access to a subaccount
@@ -71,8 +71,10 @@ In the previous exercise, the user from the custom identity provider was given a
 
 2. You receive an error message that your user is not a member of the subaccount. The user from the custom identity provider is only associated with the global account, no subaccount.
 
-3. Logoff from the SAP BTP Cockpit. Open the SAP BTP Cockpit URL again in the browser and authenticate with your SAP ID Servixce credentials
+3. Logoff from the SAP BTP Cockpit. Open the SAP BTP Cockpit URL again in the browser and authenticate with your SAP ID Service credentials. Make sure that you use the URL in the format https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/. If the "?idp=" parameter was in the URL, you would be taken to your custom identity provider instead.
 
+4. In the account explorer, click again on the subaccount. As your SAP ID Service user is already a member of the subaccount, you can access the subaccount overview page
+<br><img src="/exercises/ex1/images/SubaccountBlur.png" width="50%">
 
 
 
