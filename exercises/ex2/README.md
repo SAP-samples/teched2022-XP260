@@ -25,8 +25,10 @@ As MFA reduces the usability of the authentication process, you wouldn't want to
 In this step we will configure the Identity Authentication service to enforce MFA for users that try to access the SAP BTP Cockpit and are in the group of BTP Admins.
 
 1. Choose the menu item "Applications & Resources" --> "Applications"
+<br><img src="/exercises/ex2/images/BTP_Cockpit_Application.png" width="50%">
 
 2. Click on the top level entry "SAP Business Technology Platform". The details for the identity provider configuration for accessing the cockpit are displayed
+<br><img src="/exercises/ex2/images/Applications_Menu_Item.png" width="50%">
 
 3. Choose the tab "Authentication and Access" and click on "Risk-Based Authentication"
 
