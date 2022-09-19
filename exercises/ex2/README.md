@@ -8,9 +8,10 @@ As MFA reduces the usability of the authentication process, you wouldn't want to
 
 1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
 
-2. Choose the menu item "User & Authorizations" --> "User Groups".
+2. Choose the menu item "User & Authorizations" --> "User Groups" and click on the "Create" button
+<br><img src="/exercises/ex1/images/CreateUserGroup.png" width="50%">
 
-3. Click the "Create" button to create a group with the name "BTP_Admins" and display name "BTP Admins". Click "Create" to save the new group.
+3. Create a group with the name "BTP_Admins" and display name "BTP Admins". Click "Create" to save the new group.
 
 4. To assign users to the group, click the "Add" button above the list of users.
 
