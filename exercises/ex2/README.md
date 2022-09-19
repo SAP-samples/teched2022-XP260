@@ -37,8 +37,10 @@ In this step we will configure the Identity Authentication service to enforce MF
 <br><img src="/exercises/ex2/images/Create_Rule_Button.png" width="50%">
 
 5. In the "New Risk-Based Authentication Rule" dialog, set the action to "Two Factor Authentication" and the entry field "Two-Factor Methods" to "TOTP". Select the group "BTP_Admin" from the value help dialog of the field "Group" and click on "Create"
+<br><img src="/exercises/ex2/images/Create_Rule_Dialog.png" width="50%">
 
 6. When the dialog is closed, click on "Save" to save the newly created authentication rule
+<br><img src="/exercises/ex2/images/Save_Rule.png" width="50%">
 
 Multi-factor authentication is now enabled for your user in the custom identity provider
 
