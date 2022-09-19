@@ -31,8 +31,10 @@ In this step we will configure the Identity Authentication service to enforce MF
 <br><img src="/exercises/ex2/images/Applications_Menu_Item.png" width="50%">
 
 3. Choose the tab "Authentication and Access" and click on "Risk-Based Authentication"
+<br><img src="/exercises/ex2/images/Overview_Authentication_And_Access.png" width="50%">
 
 4. The list of authentication rules is still empty. Click on "Create Rule"
+<br><img src="/exercises/ex2/images/Create_Rule_Button.png" width="50%">
 
 5. In the "New Risk-Based Authentication Rule" dialog, set the action to "Two Factor Authentication" and the entry field "Two-Factor Methods" to "TOTP". Select the group "BTP_Admin" from the value help dialog of the field "Group" and click on "Create"
 
