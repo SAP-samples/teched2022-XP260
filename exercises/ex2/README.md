@@ -53,6 +53,7 @@ When you now authenticate with your custom identity provider to access the cockp
 2. Open the SAP BTP Cockpit URL. If you are authenticated with SAP ID Service, choose the menu item "Security" --> "Trust Configuration" and click in "Open" for your custom identity provider.
 
 3. The logon page of your identity provider is displayed and you need to enter username and password
+<br><img src="/exercises/ex2/images/IAS_Username_Password.png" width="50%">
 
 4. The page "Two-Factor Authentication" is displayed, where you can register a device that shall generate the time-based one-time passwords (TOTP). While you can use the mentioned SAP Authenticator app, the process also works with Google Authenticator, Microsoft Authenticator and most other authenticator apps
 
