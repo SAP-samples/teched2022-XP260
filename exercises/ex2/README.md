@@ -28,26 +28,30 @@ In this step we will configute the Identity Authentication service to enforce MF
 
 4. The list of authentication rules is still empty. Click on "Create Rule"
 
-5. In the "New Risk-Based Authentication Rule" dialog, set the action to "Two Factor Authentication" and the entry field "Two-Factor Methods" to "TOTP". 
+5. In the "New Risk-Based Authentication Rule" dialog, set the action to "Two Factor Authentication" and the entry field "Two-Factor Methods" to "TOTP". Select the group "BTP_Admin" from the value help dialog of the field "Group" and click on "Create"
+
+6. When the dialog is closed, click on "Save" to save the newly created authentication rule
+
+Multi-factor authentication is now enabled for your user in the custom identity provider
+
+## Exercise 2.3 Access the SAP BTP Cockpit with MFA
+
+When you now authenticate with your custom identity provider to access the cockpit, MFA will be triggered.
+
+1. Close the browser
+
+2. Open the SAP BTP Cockpit URL. If you are authenticated with SAP ID Service, choose the menu item "Security" --> "Trust Configuration" and click in "Open" for your custom identity provider.
+
+3. The logon page of your identity provider is displayed and you need to enter username and password
+
+4. The page "Two-Factor Authentication" is displayed, where you can register a device that shall generate the time-based one-time passwords (TOTP). While you can use the mentioned SAP Authenticator app, the process also works with Google Authenticator, Microsoft Authenticator and most other authenticator apps
+
+5. Open the authenticator app on your smart phone and create a new entry in it, by scanning the QR code
+
+6. Enter the code that the authenticator app generates into the "Passcode" field and click on "Continue"
 
 
 
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
 
 ## Summary
 
