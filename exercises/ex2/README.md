@@ -4,13 +4,13 @@ In the previous exercise, you saw how to use a custom identity provider instead 
 
 ## Exercise 2.1 Configuring the users that shall use MFA
 
-As MFA reduces the usbility of the authentication process, you wouldn't want to make it mandatory for everbody. In the first step, we will therefore create a group for those user that need to authenticare with MFA. For example these could be the users with administrative rights while pure viewers might not require MFA.
+As MFA reduces the usability of the authentication process, you wouldn't want to make it mandatory for everybody. In the first step, we will therefore create a group for those user that need to authenticate with MFA. For example these could be the users with administrative rights while pure viewers might not require MFA.
 
 1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
 
 2. Choose the menu item "User & Authorizations" --> "User Groups".
 
-3. Click the "Create" button to create a group with the name "BTP_Admins" and display name "BTP Admins". CLick "Create" to save the new group.
+3. Click the "Create" button to create a group with the name "BTP_Admins" and display name "BTP Admins". Click "Create" to save the new group.
 
 4. To assign users to the group, click the "Add" button above the list of users.
 
@@ -18,7 +18,7 @@ As MFA reduces the usbility of the authentication process, you wouldn't want to 
 
 ## Exercise 2.2 Configuring MFA for accessing the SAP BTP Cockpit
 
-In this step we will configute the Identity Authentication service to enforce MFA for users that try to access the SAP BTP Cockpit and are in the group of BTP Admins.
+In this step we will configure the Identity Authentication service to enforce MFA for users that try to access the SAP BTP Cockpit and are in the group of BTP Admins.
 
 1. Choose the menu item "Applications & Resources" --> "Applications"
 
@@ -57,4 +57,4 @@ When you now authenticate with your custom identity provider to access the cockp
 
 In this exercise you have learned how to protect access the SAP BTP Cockpit by enforcing MFA for a specific group of users. Please note that this only affects users in the "BTP Admins" group, when they try to access the SAP BTP Cockpit. You can still access the Identity Authentication console of your custom identity provider without MFA. 
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Exercise 3 ](../ex3/README.md)
