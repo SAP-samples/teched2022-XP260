@@ -2,6 +2,10 @@
 
 In this exercise, we will add a custom identity provider to the SAP BTP Cockpit for the global account so that users accessing the cockpit can authenticate with the custom identity provider instead of the default SAP ID Service.
 
+# Relevant Security Recommendations
+- BTP-UAA-0007
+- BTP-UAA-0008
+
 ## Exercise 1.1 - Configure the global account cockpit to trust identity provider
 
 First, we will change the trust configuration in the SAP BTP Cockpit to establish trust to your custom identity provider
