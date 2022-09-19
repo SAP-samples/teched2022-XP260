@@ -1,4 +1,4 @@
-# Exercise 2 - Identity Authentication Service with multi-factor-authentication for a business app
+# Exercise 2 - Protect access to the SAP BTP Cockpit with multi-factor-authentication
 
 In the previous exercise, you saw how to use a custom identity provider instead of SAP ID Service to authenticate users that access the SAP BTP Cockpit. One benefit of this integration is that you can now implement your company's multi-factor authentication (MFA) approach for users accessing the cockpit. 
 
