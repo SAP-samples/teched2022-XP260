@@ -16,7 +16,21 @@ As MFA reduces the usbility of the authentication process, you wouldn't want to 
 
 5. Mark your customer identity provider user in the list and click save. The user is now a member of the group "BTP_Admins"
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Exercise 2.2 Configuring MFA for accessing the SAP BTP Cockpit
+
+In this step we will configute the Identity Authentication service to enforce MFA for users that try to access the SAP BTP Cockpit and are in the group of BTP Admins.
+
+1. Choose the menu item "Applications & Resources" --> "Applications"
+
+2. Click on the top level entry "SAP Business Technology Platform". The details for the identity provider configuration for accessing the cockpit are displayed
+
+3. Choose the tab "Authentication and Access" and click on "Risk-Based Authentication"
+
+4. The list of authentication rules is still empty. Click on "Create Rule"
+
+5. In the "New Risk-Based Authentication Rule" dialog, set the action to "Two Factor Authentication" and the entry field "Two-Factor Methods" to "TOTP". 
+
+
 
 After completing these steps you will have...
 
