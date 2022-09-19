@@ -50,11 +50,11 @@ When you now authenticate with your custom identity provider to access the cockp
 
 6. Enter the code that the authenticator app generates into the "Passcode" field and click on "Continue"
 
-
+7. You have successfully authenticated an can access the SAP BTP Cockpit
 
 
 ## Summary
 
-You've now ...
+In this exercise you have learned how to protect access the SAP BTP Cockpit by enforcing MFA for a specific group of users. Please note that this only affects users in the "BTP Admins" group, when they try to access the SAP BTP Cockpit. You can still access the Identity Authentication console of your custom identity provider without MFA. 
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
