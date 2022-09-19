@@ -60,6 +60,7 @@ When you now authenticate with your custom identity provider to access the cockp
 5. Open the authenticator app on your smart phone and create a new entry in it, by scanning the QR code
 
 6. Enter the code that the authenticator app generates into the "Passcode" field and click on "Continue"
+<br><img src="/exercises/ex2/images/IAS_Username_Password.png" width="50%">
 
 7. You have successfully authenticated an can access the SAP BTP Cockpit
 
