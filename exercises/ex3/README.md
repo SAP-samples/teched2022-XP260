@@ -3,7 +3,7 @@
 In this exercise you will learn about further security recommendations that help protect your accounts from risks related to access and authentication. 
 
 # Relevant Security Recommendations
-- BTP-IAS-0001
+- BTP-UAA-0009
 
 
 ## Exercise 3.1 Identify obsolete users
