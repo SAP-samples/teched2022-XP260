@@ -18,11 +18,9 @@ In the previous exercises you associated users to a global account or subaccount
 3. Sort the list of users by Last Logon, ascending
 <br><img src="/exercises/ex3/images/User_List_Sort.png" width="50%">
 
-4. To assign users to the group, click the "Add" button above the list of users.
-<br><img src="/exercises/ex3/images/Add_Users_to_Group.png" width="50%">
+4. In the sorted list you will see at the top those users that have last signed in a long time ago. Maybe they don't need this access anymore?
 
-5. Mark your customer identity provider user in the list and click save. The user is now a member of the group "BTP_Admins"
-<br><img src="/exercises/ex3/images/Add_User_And_Save.png" width="50%">
+5. Sort the list of users by Last Logon, descending. If there any users that never used this account at all, then they will show up at the top of the page. These might be good candidates for a clean-up. 
 
 ## Exercise 3.2 Defining a custom password policy
 
