@@ -1,6 +1,6 @@
 # Exercise 3 - Security Recommendations regarding user access and authentication
 
-In the previous exercise, you saw how to use a custom identity provider instead of SAP ID Service to authenticate users that access the SAP BTP Cockpit. One benefit of this integration is that you can now implement your company's multi-factor authentication (MFA) approach for users accessing the cockpit. 
+In this exercise you will learn about further security recommendations that help protect your accounts from risks related to access and authentication. 
 
 # Relevant Security Recommendations
 - BTP-IAS-0001
@@ -8,11 +8,11 @@ In the previous exercise, you saw how to use a custom identity provider instead 
 
 ## Exercise 3.1 Identify obsolete users
 
-As MFA reduces the usability of the authentication process, you wouldn't want to make it mandatory for everybody. In the first step, we will therefore create a group for those user that need to authenticate with MFA. For example these could be the users with administrative rights while pure viewers might not require MFA.
+In the previous exercises you associated users to a global account or subaccount, to give them access. It makes sense to review on a regular basis whether the users actually need this access. After all, an abandoned account with high privileges could become an attack target.
 
-1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
+1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
 
-2. Choose the menu item "User & Authorizations" --> "User Groups" and click on the "Create" button
+2. Choose the menu item "Security" --> "Users" and click on the "Sort" button
 <br><img src="/exercises/ex2/images/CreateUserGroup.png" width="50%">
 
 3. Create a group with the name "BTP_Admins" and display name "BTP Admins". Click "Create" to save the new group.
