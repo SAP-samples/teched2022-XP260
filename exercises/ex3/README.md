@@ -15,8 +15,8 @@ In the previous exercises you associated users to a global account or subaccount
 2. Choose the menu item "Security" --> "Users" and click on the "Sort" button
 <br><img src="/exercises/ex3/images/Cockpit_Users.png" width="50%">
 
-3. Create a group with the name "BTP_Admins" and display name "BTP Admins". Click "Create" to save the new group.
-<br><img src="/exercises/ex3/images/Create_Group_Dialog.png" width="50%">
+3. Sort the list of users by Last Logon, ascending
+<br><img src="/exercises/ex3/images/User_List_Sort.png" width="50%">
 
 4. To assign users to the group, click the "Add" button above the list of users.
 <br><img src="/exercises/ex3/images/Add_Users_to_Group.png" width="50%">
