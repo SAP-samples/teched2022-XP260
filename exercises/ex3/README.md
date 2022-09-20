@@ -30,7 +30,7 @@ By default, Identity Authentication service comes with 2 password policies, Stan
 1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
 
 2. Choose the menu item "Applications & Resources" --> "Password Policies"
-<br><img src="/exercises/ex2/images/Menu_Item_Password_Policies.png" width="50%">
+<br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="50%">
 
 3. Choose the tab "Authentication and Access" and click on "Risk-Based Authentication"
 <br><img src="/exercises/ex2/images/Overview_Authentication_And_Access.png" width="50%">
