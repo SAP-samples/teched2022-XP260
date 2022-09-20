@@ -13,7 +13,7 @@ In the previous exercises you associated users to a global account or subaccount
 1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
 
 2. Choose the menu item "Security" --> "Users" and click on the "Sort" button
-<br><img src="/exercises/ex2/images/CreateUserGroup.png" width="50%">
+<br><img src="/exercises/ex2/images/Cockpit_Users.png" width="50%">
 
 3. Create a group with the name "BTP_Admins" and display name "BTP Admins". Click "Create" to save the new group.
 <br><img src="/exercises/ex2/images/Create_Group_Dialog.png" width="50%">
