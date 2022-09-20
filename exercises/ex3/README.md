@@ -6,7 +6,7 @@ In the previous exercise, you saw how to use a custom identity provider instead 
 - BTP-IAS-0001
 
 
-## Exercise 3.1 Identifying obsolete users
+## Exercise 3.1 Identify obsolete users
 
 As MFA reduces the usability of the authentication process, you wouldn't want to make it mandatory for everybody. In the first step, we will therefore create a group for those user that need to authenticate with MFA. For example these could be the users with administrative rights while pure viewers might not require MFA.
 
