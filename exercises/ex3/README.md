@@ -1,4 +1,4 @@
-# Exercise 2 - Protect access to the SAP BTP Cockpit with multi-factor-authentication
+# Exercise 3 - Security Recommendations regarding user access and authentication
 
 In the previous exercise, you saw how to use a custom identity provider instead of SAP ID Service to authenticate users that access the SAP BTP Cockpit. One benefit of this integration is that you can now implement your company's multi-factor authentication (MFA) approach for users accessing the cockpit. 
 
@@ -6,7 +6,7 @@ In the previous exercise, you saw how to use a custom identity provider instead 
 - BTP-IAS-0001
 
 
-## Exercise 2.1 Configuring the users that shall use MFA
+## Exercise 3.1 Identifying obsolete users
 
 As MFA reduces the usability of the authentication process, you wouldn't want to make it mandatory for everybody. In the first step, we will therefore create a group for those user that need to authenticate with MFA. For example these could be the users with administrative rights while pure viewers might not require MFA.
 
@@ -24,7 +24,7 @@ As MFA reduces the usability of the authentication process, you wouldn't want to
 5. Mark your customer identity provider user in the list and click save. The user is now a member of the group "BTP_Admins"
 <br><img src="/exercises/ex2/images/Add_User_And_Save.png" width="50%">
 
-## Exercise 2.2 Configuring MFA for accessing the SAP BTP Cockpit
+## Exercise 3.2 Defining a custom password policy
 
 In this step we will configure the Identity Authentication service to enforce MFA for users that try to access the SAP BTP Cockpit and are in the group of BTP Admins.
 
