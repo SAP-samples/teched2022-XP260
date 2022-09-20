@@ -4,6 +4,7 @@ In this exercise you will learn about further security recommendations that help
 
 # Relevant Security Recommendations
 - BTP-UAA-0009
+- BTP-IAS-0002
 
 
 ## Exercise 3.1 Identify obsolete users
@@ -24,13 +25,12 @@ In the previous exercises you associated users to a global account or subaccount
 
 ## Exercise 3.2 Defining a custom password policy
 
-In this step we will configure the Identity Authentication service to enforce MFA for users that try to access the SAP BTP Cockpit and are in the group of BTP Admins.
+By default, Identity Authentication service comes with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your password policy, based on your company's requirements.
 
-1. Choose the menu item "Applications & Resources" --> "Applications"
-<br><img src="/exercises/ex2/images/BTP_Cockpit_Application.png" width="50%">
+1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
 
-2. Click on the top level entry "SAP Business Technology Platform". The details for the identity provider configuration for accessing the cockpit are displayed
-<br><img src="/exercises/ex2/images/Applications_Menu_Item.png" width="50%">
+2. Choose the menu item "Applications & Resources" --> "Password Policies"
+<br><img src="/exercises/ex2/images/Menu_Item_Password_Policies.png" width="50%">
 
 3. Choose the tab "Authentication and Access" and click on "Risk-Based Authentication"
 <br><img src="/exercises/ex2/images/Overview_Authentication_And_Access.png" width="50%">
