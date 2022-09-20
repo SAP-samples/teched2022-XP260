@@ -4,6 +4,7 @@ In the previous exercise, you saw how to use a custom identity provider instead 
 
 # Relevant Security Recommendations
 - BTP-IAS-0001
+- BTP-IAS-0026
 
 
 ## Exercise 2.1 Configuring the users that shall use MFA
