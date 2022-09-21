@@ -28,15 +28,12 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 3 - Security recommendations regarding user access and authentication](exercises/ex3/)
     - [Exercise 3.1 - Identify obsolete users](exercises/ex3/README.md#exercise-31-identify-obsolete-users)
     - [Exercise 3.2 - Defining a custom password policy](exercises/ex3/README.md#exercise-32-defining-a-custom-password-policy)
-- [TODO Exercise 4 - Password policies and other tenant-level settings in Identity Authentication Service](exercises/ex4/)
+- [TODO Exercise 4 - Destinations and Connectivity](exercises/ex4/)
     - [Exercise 4.1 - Exercise 4 Sub Exercise 1 Description](exercises/ex4#exercise-41-sub-exercise-1-description)
     - [Exercise 4.2 - Exercise 4 Sub Exercise 2 Description](exercises/ex4#exercise-42-sub-exercise-2-description)
-- [TODO Exercise 5 - Destinations and Connectivity](exercises/ex5/)
+- [TODO Exercise 5 - SAP Cloud Connector](exercises/ex5/)
     - [Exercise 5.1 - Exercise 5 Sub Exercise 1 Description](exercises/ex4#exercise-51-sub-exercise-1-description)
     - [Exercise 5.2 - Exercise 5 Sub Exercise 2 Description](exercises/ex4#exercise-52-sub-exercise-2-description)
-- [TODO Exercise 6 - SAP Cloud Connector](exercises/ex6/)
-    - [Exercise 6.1 - Exercise 6 Sub Exercise 1 Description](exercises/ex4#exercise-61-sub-exercise-1-description)
-    - [Exercise 6.2 - Exercise 6 Sub Exercise 2 Description](exercises/ex4#exercise-62-sub-exercise-2-description)
   
 ## How to obtain support
 
