@@ -19,7 +19,8 @@ In this exercise...
 3. You will find the information that you need at this point on the overview page of your SAP BTP subaccount 
 <br><img src="/exercises/ex5/images/Subaccount_Details.png" width="50%">
 
-4. In the sorted list you will see at the top those users that have last signed in a long time ago. Maybe they don't need this access anymore?
+4. In the "Add Subaccount Dialog", select "US East (VA) - AWS" as the region. Copy the Subaccount ID from the subaccount overview page. Enter "TechEd Workshop" as the "Display Name". Then enter the logon e-mail and the password for your **SAP ID Service** user and click on "Save"
+<br><img src="/exercises/ex5/images/Add_Subaccount_Dialog.png" width="50%">
 
 5. Sort the list of users by Last Logon, descending. If there are any users that never used this account at all, then they will show up at the top of the page. These might be good candidates for a clean-up. 
 
