@@ -22,7 +22,8 @@ In this exercise...
 4. In the "Add Subaccount Dialog", select "US East (VA) - AWS" as the region. Copy the Subaccount ID from the subaccount overview page. Enter "TechEd Workshop" as the "Display Name". Then enter the logon e-mail and the password for your **SAP ID Service** user and click on "Save"
 <br><img src="/exercises/ex5/images/Add_Subaccount_Dialog.png" width="50%">
 
-5. Sort the list of users by Last Logon, descending. If there are any users that never used this account at all, then they will show up at the top of the page. These might be good candidates for a clean-up. 
+5. You have now connected you SAP BTP subaccount with your SAP Cloud Connector 
+<br><img src="/exercises/ex5/images/SCC_Subaccount_Connected.png" width="50%">
 
 ## Exercise 3.2 Defining a custom password policy
 
