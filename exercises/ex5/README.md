@@ -8,9 +8,10 @@ In this exercise you will learn about the security settings of the SAP Cloud Con
 
 ## Exercise 5.1 Access the SAP Cloud Connector console
 
-In the previous exercises you associated users to a global account or subaccount, to give them access. It makes sense to review on a regular basis whether the users actually need this access. After all, an abandoned account with high privileges could become an attack target.
+In this exercise...
 
-1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
+1. Open the SAP Cloud Connector adminstration console at https://localhost:8443
+<br><img src="/exercises/ex5/images/SCC_Logon.png" width="50%">
 
 2. Choose the menu item "Security" --> "Users" and click on the "Sort" button
 <br><img src="/exercises/ex3/images/Cockpit_Users.png" width="50%">
