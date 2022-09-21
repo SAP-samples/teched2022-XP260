@@ -32,8 +32,8 @@ By default, Identity Authentication service comes with 2 password policies, Stan
 2. Choose the menu item "Applications & Resources" --> "Password Policies"
 <br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="50%">
 
-3. Choose the tab "Authentication and Access" and click on "Risk-Based Authentication"
-<br><img src="/exercises/ex2/images/Overview_Authentication_And_Access.png" width="50%">
+3. Click on the button "Add Custom Policy"
+<br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="50%">
 
 4. The list of authentication rules is still empty. Click on "Create Rule"
 <br><img src="/exercises/ex2/images/Create_Rule_Button.png" width="50%">
