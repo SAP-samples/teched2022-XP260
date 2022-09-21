@@ -27,7 +27,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 2.3 - Access the SAP BTP Cockpit with MFA](exercises/ex2/README.md#exercise-23-access-the-sap-btp-cockpit-with-mfa)
 - [IN WORK Exercise 3 - Security Recommendations regarding user access and authentication](exercises/ex3/)
     - [Exercise 3.1 - Identify obsolete users](exercises/ex3/README.md#exercise-31-identify-obsolete-users)
-    - [Exercise 3.2 - Exercise 3 Sub Exercise 2 Description](exercises/ex3/README.md#exercise-32-defining-a-custom-password-policy)
+    - [Exercise 3.2 - Defining a custom password policy](exercises/ex3/README.md#exercise-32-defining-a-custom-password-policy)
 - [TODO Exercise 4 - Password policies and other tenant-level settings in Identity Authentication Service](exercises/ex4/)
     - [Exercise 4.1 - Exercise 4 Sub Exercise 1 Description](exercises/ex4#exercise-41-sub-exercise-1-description)
     - [Exercise 4.2 - Exercise 4 Sub Exercise 2 Description](exercises/ex4#exercise-42-sub-exercise-2-description)
