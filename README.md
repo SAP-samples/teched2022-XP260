@@ -34,6 +34,9 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [TODO Exercise 5 - SAP Cloud Connector](exercises/ex5/)
     - [Exercise 5.1 - Exercise 5 Sub Exercise 1 Description](exercises/ex4#exercise-51-sub-exercise-1-description)
     - [Exercise 5.2 - Exercise 5 Sub Exercise 2 Description](exercises/ex4#exercise-52-sub-exercise-2-description)
+- [TODO Exercise 6 - Audit Logs](exercises/ex5/)
+    - [Exercise 5.1 - Exercise 5 Sub Exercise 1 Description](exercises/ex4#exercise-51-sub-exercise-1-description)
+    - [Exercise 5.2 - Exercise 5 Sub Exercise 2 Description](exercises/ex4#exercise-52-sub-exercise-2-description)
   
 ## How to obtain support
 
