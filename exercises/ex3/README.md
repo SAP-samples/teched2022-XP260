@@ -32,43 +32,19 @@ By default, Identity Authentication service comes with 2 password policies, Stan
 2. Choose the menu item "Applications & Resources" --> "Password Policies"
 <br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="50%">
 
-3. Click on the button "Add Custom Policy"
+3. Click on the button "Add Custom Policy". The dialog "Custom Password Policy" is displayed
 <br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="50%">
 
-4. The list of authentication rules is still empty. Click on "Create Rule"
-<br><img src="/exercises/ex2/images/Create_Rule_Button.png" width="50%">
+You have now...
 
-5. In the "New Risk-Based Authentication Rule" dialog, set the action to "Two Factor Authentication" and the entry field "Two-Factor Methods" to "TOTP". Select the group "BTP_Admin" from the value help dialog of the field "Group" and click on "Create"
-<br><img src="/exercises/ex2/images/Create_Rule_Dialog.png" width="50%">
+## Exercise 3.3 TBD
 
-6. When the dialog is closed, click on "Save" to save the newly created authentication rule
-<br><img src="/exercises/ex2/images/Save_Rule.png" width="50%">
+When you ...
 
-Multi-factor authentication is now enabled for your user in the custom identity provider
-
-## Exercise 2.3 Access the SAP BTP Cockpit with MFA
-
-When you now authenticate with your custom identity provider to access the cockpit, MFA will be triggered.
-
-1. Close the browser
-
-2. Open the SAP BTP Cockpit URL. If you are authenticated with SAP ID Service, choose the menu item "Security" --> "Trust Configuration" and click in "Open" for your custom identity provider.
-
-3. The logon page of your identity provider is displayed and you need to enter username and password
-<br><img src="/exercises/ex2/images/IAS_Username_Password.png" width="50%">
-
-4. The page "Two-Factor Authentication" is displayed, where you can register a device that shall generate the time-based one-time passwords (TOTP). While you can use the mentioned SAP Authenticator app, the process also works with Google Authenticator, Microsoft Authenticator and most other authenticator apps
-
-5. Open the authenticator app on your smart phone and create a new entry in it, by scanning the QR code
-
-6. Enter the code that the authenticator app generates into the "Passcode" field and click on "Continue"
-<br><img src="/exercises/ex2/images/IAS_Register_OTP.png" width="50%">
-
-7. You have successfully authenticated an can access the SAP BTP Cockpit
-
+1. TBD
 
 ## Summary
 
-In this exercise you have learned how to protect access the SAP BTP Cockpit by enforcing MFA for a specific group of users. Please note that this only affects users in the "BTP Admins" group, when they try to access the SAP BTP Cockpit. You can still access the Identity Authentication console of your custom identity provider without MFA. 
+TBD
 
 Continue to - [Exercise 3 - Exercise 3 ](../ex3/README.md)
