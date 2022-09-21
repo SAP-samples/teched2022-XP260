@@ -13,8 +13,8 @@ In this exercise...
 1. Open the SAP Cloud Connector adminstration console at https://localhost:8443
 <br><img src="/exercises/ex5/images/SCC_Logon.png" width="50%">
 
-2. Choose the menu item "Security" --> "Users" and click on the "Sort" button
-<br><img src="/exercises/ex3/images/Cockpit_Users.png" width="50%">
+2. The overview page of the connector is displayed. Click on the button "Add Subaccount"
+<br><img src="/exercises/ex5/images/SCC_Admin_Connector_Overview.png" width="50%">
 
 3. Sort the list of users by Last Logon, ascending
 <br><img src="/exercises/ex3/images/User_List_Sort.png" width="50%">
