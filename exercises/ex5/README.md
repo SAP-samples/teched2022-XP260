@@ -6,9 +6,9 @@ In this exercise you will learn about the security settings of the SAP Cloud Con
 - BTP-CLC-0008
 
 
-## Exercise 5.1 Access the SAP Cloud Connector console
+## Exercise 5.1 Access the SAP Cloud Connector console and connect your SAP BTP subaccount
 
-In this exercise...
+In this exercise you will learn how to access the administration console of the SAP Cloud Connector and establish a connection to your subaccount in the cloud
 
 1. Open the SAP Cloud Connector adminstration console at https://localhost:8443
 <br><img src="/exercises/ex5/images/SCC_Logon.png" width="50%">
@@ -28,26 +28,13 @@ In this exercise...
 6. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is established
 <br><img src="/exercises/ex5/images/SCC_BTP_Cockpit.png" width="50%">
 
-## Exercise 3.2 Defining a custom password policy
+## Exercise 5.2 Add a mapping to an on-premise system that shall be called from the cloud
 
-By default, Identity Authentication service comes with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your password policy, based on your company's requirements.
+The SAP Cloud Connector allows you to expose on-premise systems to the cloud in a controlled, secure way. In this exercise you will learn how to define the mapping based on the security recommendations.
 
-1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
+1. TBD
 
-2. Choose the menu item "Applications & Resources" --> "Password Policies"
-<br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="50%">
-
-3. Click on the button "Add Custom Policy". The dialog "Custom Password Policy" is displayed
-<br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="50%">
-
-4. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. The password policy with strength 3 will also be accepted by applicatioins that require strength 1 or 2.
-💡Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered string
-
-5. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
-
-6. Fill out the remaining fields of the "Custom Password Policy" dialog and click on "Add". Your new password policy is added to the top of the list as it has the highest strength
-
-You now know how to create a custom password policy that you can use for additional protection of your applications. 
+You now know ... 
 
 ## Exercise 3.3 TBD
 
