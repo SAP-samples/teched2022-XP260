@@ -22,8 +22,11 @@ In this exercise...
 4. In the "Add Subaccount Dialog", select "US East (VA) - AWS" as the region. Copy the Subaccount ID from the subaccount overview page. Enter "TechEd Workshop" as the "Display Name". Then enter the logon e-mail and the password for your **SAP ID Service** user and click on "Save"
 <br><img src="/exercises/ex5/images/Add_Subaccount_Dialog.png" width="50%">
 
-5. You have now connected you SAP BTP subaccount with your SAP Cloud Connector 
+5. You have now connected your SAP BTP subaccount with your SAP Cloud Connector 
 <br><img src="/exercises/ex5/images/SCC_Subaccount_Connected.png" width="50%">
+
+6. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is shown
+<br><img src="/exercises/ex5/images/SCC_BTP_Cockpit.png" width="50%">
 
 ## Exercise 3.2 Defining a custom password policy
 
