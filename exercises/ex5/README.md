@@ -16,8 +16,8 @@ In this exercise...
 2. The overview page of the connector is displayed. Click on the button "Add Subaccount"
 <br><img src="/exercises/ex5/images/SCC_Admin_Connector_Overview.png" width="50%">
 
-3. Sort the list of users by Last Logon, ascending
-<br><img src="/exercises/ex3/images/User_List_Sort.png" width="50%">
+3. You will find the information that you need at this point on the overview page of your SAP BTP subaccount 
+<br><img src="/exercises/ex5/images/Subaccount_Details.png" width="50%">
 
 4. In the sorted list you will see at the top those users that have last signed in a long time ago. Maybe they don't need this access anymore?
 
