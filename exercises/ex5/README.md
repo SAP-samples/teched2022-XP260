@@ -25,7 +25,7 @@ In this exercise...
 5. You have now connected your SAP BTP subaccount with your SAP Cloud Connector 
 <br><img src="/exercises/ex5/images/SCC_Subaccount_Connected.png" width="50%">
 
-6. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is shown
+6. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is established
 <br><img src="/exercises/ex5/images/SCC_BTP_Cockpit.png" width="50%">
 
 ## Exercise 3.2 Defining a custom password policy
