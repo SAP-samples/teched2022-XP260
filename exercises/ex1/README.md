@@ -78,7 +78,8 @@ In the previous exercise, the user from the custom identity provider was given a
 1. From the previous exercise you are still signed into the cockpit with the user from the custom identity provider. Choose the menu item "Account Explorer" and click on the subaccount tile. 
 <br><img src="/exercises/ex1/images/Subaccount_Tile.png" width="50%">
 
-2. You receive an error message that your user is not a member of the subaccount. The user from the custom identity provider is only associated with the global account, no subaccount.
+2. You receive an error message that your user is not a member of the subaccount. The user from the custom identity provider is only associated with the global account, no subaccount
+<br><img src="/exercises/ex1/images/Error_Not_Subaccount_Member.png" width="50%">
 
 3. Logoff from the SAP BTP Cockpit. Open the SAP BTP Cockpit URL again in the browser and authenticate with your SAP ID Service credentials. Make sure that you use the URL in the format https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/. If the "?idp=" parameter was in the URL, you would be taken to your custom identity provider instead.
 
