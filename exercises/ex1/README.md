@@ -31,8 +31,9 @@ First, we will change the trust configuration in the SAP BTP Cockpit to establis
 <br><img src="/exercises/ex1/images/Custom_IdP_Logon.png" width="50%">
 
 9. Authenticate by using the credentials for your custom identity provider.
-10. A message is displayed that you are logged on, but the user from your custom identity provider is not associated with any global account, yet. We will do this in exercise 1.2
 
+10. A message is displayed that you are logged on, but the user from your custom identity provider is not associated with any global account. This is expected as we did not make this association, yet. We will do this in the following exercise.
+<br><img src="/exercises/ex1/images/No_Global_Account.png" width="50%">
 
 ## Exercise 1.2 - Giving a user access to the global account
 
