@@ -4,6 +4,11 @@ In this exercise you will learn about the security settings of the SAP Cloud Con
 
 # Relevant Security Recommendations
 - BTP-CLC-0008
+- BTP-CLC-0014
+- BTP-CLC-0015
+- BTP-CLC-0017
+
+TODO: BTP-CLC-0007, BTP-CLC-0009,	BTP-CLC-0016, BTP-CLC-0018, BTP-CLC-0019,	BTP-CLC-0020,	BTP-CLC-0021
 
 
 ## Exercise 5.1 Access the SAP Cloud Connector console and connect your SAP BTP subaccount
