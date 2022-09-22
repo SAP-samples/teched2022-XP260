@@ -76,15 +76,15 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 In the previous exercise, the user from the custom identity provider was given access to the global account. However, this does not mean that the user can access any subaccount. In this exercise we will enable the user to also access a subaccount.
 
 1. From the previous exercise you are still signed into the cockpit with the user from the custom identity provider. Choose the menu item "Account Explorer" and click on the subaccount tile. 
-<br><img src="/exercises/ex1/images/Subaccount_Tile.png" width="70">
+<br><img src="/exercises/ex1/images/Subaccount_Tile.png" width="70%">
 
 2. You receive an error message that your user is not a member of the subaccount. The user from the custom identity provider is only associated with the global account, no subaccount
-<br><img src="/exercises/ex1/images/Error_Not_Subaccount_Member.png" width="70">
+<br><img src="/exercises/ex1/images/Error_Not_Subaccount_Member.png" width="70%">
 
 3. Logoff from the SAP BTP Cockpit. Open the SAP BTP Cockpit URL again in the browser and authenticate with your SAP ID Service credentials. Make sure that you use the URL in the format https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/. If the "?idp=" parameter was in the URL, you would be taken to your custom identity provider instead.
 
 4. In the account explorer, click again on the subaccount. As your SAP ID Service user is already a member of the subaccount, you can access the subaccount overview page
-<br><img src="/exercises/ex1/images/Subaccount_Blur.png" width="70">
+<br><img src="/exercises/ex1/images/Subaccount_Blur.png" width="70%">
 
 5. Just like for the global account, click on the menu item Security --> Users of the subaccount overview. You will see the list of subaccount members. Click on "Create".
 
