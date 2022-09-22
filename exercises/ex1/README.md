@@ -51,7 +51,9 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 
 5. The user is added to the list and is now associated with the global account. However, the user does not yet have any authorizations. To change this, click on the ">" character at the right end of the row for the new user. A dialog with the user details is displayed. So far, no role collections were assigned to the user. Click the "Assign Role Collection" button.
 <br><img src="/exercises/ex1/images/Assign_Role_Collection_Button.png" width="50%">
+
 :bulb: If your browser window is rather small, the "Assign Role Collection" button becomes available if you click on the button with the tooltip "More" to the right of the search field in the "Role Collections" section.
+<br><img src="/exercises/ex1/images/Assign_Role_Collection_More.png" width="50%">
 
 6. In the "Assign Role Collection" dialog, select the entry "Global Account Administrator" and click on "Assign Role Collection".
 <br><img src="/exercises/ex1/images/Assign_Role_Collection.png" width="50%">
