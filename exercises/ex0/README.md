@@ -4,9 +4,9 @@ In the following list you will find the links to the SAP BTP Cockpit and SAP Clo
 
 **Seat number**: XY
 
-**SAP BTP Global Account Name**: XP260-0XY
+**Your user account in SAP ID Service (Default Identity Provider)**: BTP<XY>@example.com  
 
-**Identity Authentication Service Name**: BestRunXY
+**Your user account in Identity Authentication Service (Custom Identity Provider)**: MyIASUser@bestrun.com
 
 | Seat Number | Global Account Cockpit | Identity Authentication Service console |
 | ----------- | ---------------------- | --------------------------------------- |
