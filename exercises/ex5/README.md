@@ -66,15 +66,9 @@ The SAP Cloud Connector allows you to expose on-premise systems to the cloud in 
 9. You have now successfully added a mapping to an internal system to the SAP Cloud Connector configuration
 <br><img src="/exercises/ex5/images/SCC_Cloud_To_On-Premise_With_Entry.png" width="70%">
 
+## Exercise 5.3 Restrict access to the on-premise system and only expose relevant capabilities
 
-
-You now know ... 
-
-## Exercise 3.3 TBD
-
-When you ...
-
-1. TBD
+1. ..
 
 ## Summary
 
