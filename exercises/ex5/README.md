@@ -17,15 +17,17 @@ In this exercise you will learn how to access the administration console of the 
 
 0. Open the Windows file explorer and double click the batch file go.bat in the directory C:\TechEd\SCC_Portable
 <br><img src="/exercises/ex5/images/SCC_Batch.png" width="70%">
-⚠️ Handle Windows firewall warning if required
+
+⚠️ TODO: Handle Windows firewall warning if required
 
 1. Open the SAP Cloud Connector administration console at https://localhost:8443
 <br><img src="/exercises/ex5/images/SCC_Logon.png" width="70%">
-⚠️Handle Chrome browser warning if required
+
+⚠️ TODO: Handle Chrome browser warning if required
 
 Enter then username "Administrator" and Password "manage" to login
 
-⚠️ Handle the change password dialog if required
+⚠️ TODO Handle the change password dialog if required
 
 2. The overview page of the connector is displayed. Click on the button "Add Subaccount"
 <br><img src="/exercises/ex5/images/SCC_Admin_Connector_Overview.png" width="70%">
