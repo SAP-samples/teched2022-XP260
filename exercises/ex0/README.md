@@ -1,13 +1,17 @@
 # Accessing the BTP services
 
-In the following list you will find the links to the SAP BTP Cockpit and SAP Cloud Identity Services - Identity Authentication admin console that are assigned to your seat in this workshop. The speakers will make the credentials for 2 users available to you, one user in SAP ID Service and one user in your custom identity provider listed below.
+## User accounts
 
-**Seat number**: XY
+Please find below the user names that you may use for the exercises. The user account in the SAP ID Service is specific for your seat in the workshop room. The user name in the custom identity provider is the smae for all attendees. 
+
+**Seat number in workshop**: XY
 
 **Your user account in SAP ID Service (Default Identity Provider)**: BTP<XY>@example.com  
 
 **Your user account in Identity Authentication Service (Custom Identity Provider)**: MyIASUser@bestrun.com
 
+## Administration console URLs
+  
 | Seat Number | Global Account Cockpit | Identity Authentication Service console |
 | ----------- | ---------------------- | --------------------------------------- |
 | 01 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/e286338d-1e66-4974-b013-7db15513e55a/accountModel | https://bestrun01.accounts.ondemand.com/admin/ |
