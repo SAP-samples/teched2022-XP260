@@ -93,7 +93,7 @@ In the previous exercise, the user from the custom identity provider was given a
 7. When the new entry if displayed in the list of members, click on the ">" character to display the details of the new subaccount member. As for the global account, the user initially has no role collections assigned.
 
 8. Click on "Assign Role Collection", select the following 4 entries: "Cloud Connector Administrator", "Connectivity and Destination Administrator", "Destination Administrator" and "Subaccount Administrator" and click on "Assign Role Collection"
-<br><img src="/exercises/ex1/images/Assign_Role_Collection_Subaccount.png" width="70">
+<br><img src="/exercises/ex1/images/Assign_Role_Collection_Subaccount.png" width="70%">
 
 9. To test the configuration, switch your user to the one from the custom identity provider. Choose the menu item Security --> Trust Configuration. Click on the "Open" link in the row for your custom identity provider in the section "Custom Identity Provider for Platform Users".
 
