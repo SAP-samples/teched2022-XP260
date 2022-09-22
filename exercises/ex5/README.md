@@ -32,7 +32,22 @@ In this exercise you will learn how to access the administration console of the 
 
 The SAP Cloud Connector allows you to expose on-premise systems to the cloud in a controlled, secure way. In this exercise you will learn how to define the mapping based on the security recommendations.
 
-1. TBD
+1. Choose the menu item "TechEd Workshop" --> "Cloud To On-Premise" and click on the "Add" button
+<br><img src="/exercises/ex5/images/SCC_Cloud_To_On-Premise.png" width="70%">
+
+2. In the "Add System Mapping Dialog", select the back-end type "ABAP System" and click on "Next"
+<br><img src="/exercises/ex5/images/SCC_Add_System_Mapping.png" width="70%"> 
+
+3. Review the list of availabble protocols. We recommend to use the encrypted versions of the protocols whenever possible: HTTPS, LDAPS, RFC SNC and TCP SSL. For this exercise, select HTTPS and click on "Next".
+<br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Protocol.png" width="70%"> 
+
+4. Enter the details for the on-premise back-end system that shall be made available to the cloud. Then internal host is "ecc60.mycompany.corp", the port is 1443. Click on "Next".
+<br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Internal.png" width="70%">
+
+:bulb: For this TechEd workshop, we are working with dummy connections to explain the security recommendations. So the internal host configured here does not really exist in the landscape
+
+5. 
+
 
 You now know ... 
 
