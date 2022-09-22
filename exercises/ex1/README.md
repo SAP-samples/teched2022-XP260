@@ -76,7 +76,7 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 In the previous exercise, the user from the custom identity provider was given access to the global account. However, this does not mean that the user can access any subaccount. In this exercise we will enable the user to also access a subaccount.
 
 1. From the previous exercise you are still signed into the cockpit with the user from the custom identity provider. Choose the menu item "Account Explorer" and click on the subaccount tile. 
-<br><img src="/exercises/ex1/images/Subaccount_Tile.png" width="70>
+<br><img src="/exercises/ex1/images/Subaccount_Tile.png" width="70">
 
 2. You receive an error message that your user is not a member of the subaccount. The user from the custom identity provider is only associated with the global account, no subaccount
 <br><img src="/exercises/ex1/images/Error_Not_Subaccount_Member.png" width="70">
