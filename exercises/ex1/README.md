@@ -58,9 +58,9 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 6. In the "Assign Role Collection" dialog, select the entry "Global Account Administrator" and click on "Assign Role Collection".
 <br><img src="/exercises/ex1/images/Assign_Role_Collection.png" width="70%">
 
-7.The role collection "Global Account Administrator" is now shown in the list of the user's role collections
+7. The role collection "Global Account Administrator" is now shown in the list of the user's role collections
 
-8. In the SAP BTP Cockpit, choose again the menu item Security --> Trust Configuration and click on "Open" in the row for your custom identity provider
+8. In the SAP BTP Cockpit, choose the menu item Security --> Trust Configuration and click on "Open" in the row for your custom identity provider
 
 9. On the logon page of the custom identity provider, authenticate with your credentials for the custom identity provider. This time the SAP BTP Cockpit for the global account is displayed
 
@@ -83,19 +83,19 @@ In the previous exercise, the user from the custom identity provider was given a
 
 3. Logoff from the SAP BTP Cockpit. Open the SAP BTP Cockpit URL again in the browser and authenticate with your SAP ID Service credentials. Make sure that you use the URL in the format https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/. If the "?idp=" parameter was in the URL, you would be taken to your custom identity provider instead.
 
-4. In the account explorer, click again on the subaccount. As your SAP ID Service user is already a member of the subaccount, you can access the subaccount overview page
+4. In the account explorer, click on the subaccount again. As your SAP ID Service user is already a member of the subaccount, you can access the subaccount overview page
 <br><img src="/exercises/ex1/images/Subaccount_Blur.png" width="70%">
 
 5. Just like for the global account, click on the menu item Security --> Users of the subaccount overview. You will see the list of subaccount members. Click on "Create".
 
 6. The "New User" dialog looks just like for the global account. Choose your custom identity provider and enter the user name and e-mail address for your user in the custom identity provider. Then click on "Create".
 
-7. When the new entry if displayed in the list of members, click on the ">" character to display the details of the new subaccount member. As for the global account, the user initially has no role collections assigned.
+7. When the new entry is displayed in the list of members, click on the ">" character to display the details of the new subaccount member. As for the global account, the user initially has no role collections assigned.
 
 8. Click on "Assign Role Collection", select the following 4 entries: "Cloud Connector Administrator", "Connectivity and Destination Administrator", "Destination Administrator" and "Subaccount Administrator" and click on "Assign Role Collection"
 <br><img src="/exercises/ex1/images/Assign_Role_Collection_Subaccount.png" width="70%">
 
-9. To test the configuration, switch your user to the one from the custom identity provider. Choose the menu item Security --> Trust Configuration. Click on the "Open" link in the row for your custom identity provider in the section "Custom Identity Provider for Platform Users".
+9. To test the configuration, switch to the user from the custom identity provider. Choose the menu item Security --> Trust Configuration. Click on the "Open" link in the row for your custom identity provider in the section "Custom Identity Provider for Platform Users".
 
 10. The logon page for the custom identity provider is shown. Enter your credentials for this identity provider.
 
