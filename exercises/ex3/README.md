@@ -35,8 +35,8 @@ By default, Identity Authentication service comes with 2 password policies, Stan
 3. Click on the button "Add Custom Policy". The dialog "Custom Password Policy" is displayed
 <br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="50%">
 
-4. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. The password policy with strength 3 will also be accepted by applicatioins that require strength 1 or 2.
-💡Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered string
+4. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
+💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong
 
 5. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
 
