@@ -82,7 +82,14 @@ The SAP Cloud Connector allows you to expose on-premise systems to the cloud in 
 
 ## Exercise 5.3 Restrict access to the on-premise system and only expose relevant capabilities
 
-1. ..
+In this exercise you will specify, which resources of the on-premise system shall be exposed to the cloud. This is a critical step because it significantly reduces the potential attack surface of your on-premise application
+
+1. In the "Cloud To On-Premise" dialog, click on the "Add" button in the section "Resources Of sales-system.cloud:443"
+<br><img src="/exercises/ex5/images/SCC_Add_Resources_Button.png" width="70%">
+
+2. In the "Add Resource" dialog you can now specify, which URL can be called from the cloud. Enter "/production/accounting" as the URL path and the set the "AccessPolicy" to "Path Only", to prevent calls to sub-paths
+<br><img src="/exercises/ex5/images/SCC_Save_Resources.png" width="70%">
+
 
 ## Summary
 
