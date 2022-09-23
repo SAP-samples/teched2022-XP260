@@ -121,12 +121,8 @@ In this exercise you have learned how to manage the list of TLS cipher suites th
 
 Of course, these recommendations are constantly evolving, and compatibility with an existing infrastructure needs to be considered.  
 
-
-
-
-
 ## Summary
 
-TBD
+You have now learned how to set up a connection from the cloud to an on-premise system in SAP Cloud Connector, based on our security recommendations.
 
 Continue to - [Exercise 3 - Exercise 3 ](../ex3/README.md)
