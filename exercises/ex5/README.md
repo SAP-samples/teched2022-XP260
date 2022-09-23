@@ -92,10 +92,29 @@ In this exercise you will specify, which resources of the on-premise system shal
 
 2. In the "Add Resource" dialog you can now specify, which URL can be called from the cloud. Enter "/production/accounting" as the URL path and set the "AccessPolicy" to "Path Only", to prevent calls to sub-paths. 
 <br><img src="/exercises/ex5/images/SCC_Save_Resources.png" width="70%">
-:bulb: For RFC-based ABAP connection
+
+:bulb: For an RFC-based ABAP connection you would add the names of allowed functions as resources
 
 3. With this configuration, the connection to the on-premise system is now defined and the exposed resources are explicitly specified
 <br><img src="/exercises/ex5/images/SCC_Cloud_To_On-Premise_With_Resources.png" width="70%">
+
+## Exercise 5.4 Managing the allowed TLS cipher suites
+
+By default, SAP Cloud Connector allows TLS connections based on all the cipher suites that are supported by the Java virtual machine. Some of these cipher suite are weaker than others. We recommend to disbale all weak cipher suites that are not required for compatibility reasons.
+
+1. In the SAP Cloud Connector administration console, choose the "Configuration" menu item
+<br><img src="/exercises/ex5/images/SCC_Configuration.png" width="70%">
+
+<br><img src="/exercises/ex5/images/SCC_Config_Cipher_Suites.png" width="70%">
+
+<br><img src="/exercises/ex5/images/SCC_Disable_Cipher_Suite.png" width="70%">
+
+<br><img src="/exercises/ex5/images/SCC_Save_Cipher_Suites.png" width="70%">
+
+
+
+
+
 
 
 ## Summary
