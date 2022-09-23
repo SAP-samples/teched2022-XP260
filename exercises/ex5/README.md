@@ -105,13 +105,16 @@ By default, SAP Cloud Connector allows TLS connections based on all the cipher s
 1. In the SAP Cloud Connector administration console, choose the "Configuration" menu item
 <br><img src="/exercises/ex5/images/SCC_Configuration.png" width="70%">
 
+2. On the "User Interface" tab, scroll down to the "Cipher Suites" section and click on the "Edit" button
 <br><img src="/exercises/ex5/images/SCC_Config_Cipher_Suites.png" width="70%">
 
+3. Select the cipher suite "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA" in the list of enabled cipher suites and click on the right arrow icon to move the entry to the list of disabled cipher suites
 <br><img src="/exercises/ex5/images/SCC_Disable_Cipher_Suite.png" width="70%">
 
+4. Click on the "Save" button to persist the change
 <br><img src="/exercises/ex5/images/SCC_Save_Cipher_Suites.png" width="70%">
 
-
+In this exercise you have learned how to manage the list of TLS cipher suites that SAP Cloud Connector supports. A TLS cipher suite consists of 3 parts: The key exchange, the encryption algortihm and the message digest algorithm. 
 
 
 
