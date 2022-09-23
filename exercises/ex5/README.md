@@ -100,7 +100,7 @@ In this exercise you will specify, which resources of the on-premise system shal
 
 ## Exercise 5.4 Managing the allowed TLS cipher suites
 
-By default, SAP Cloud Connector allows TLS connections based on all the cipher suites that are supported by the Java virtual machine. Some of these cipher suite are weaker than others. We recommend to disbale all weak cipher suites that are not required for compatibility reasons.
+By default, SAP Cloud Connector allows TLS connections based on all the cipher suites that are supported by the Java virtual machine. Some of these cipher suite are weaker than others. We recommend to disable all weak cipher suites that are not required for compatibility reasons.
 
 1. In the SAP Cloud Connector administration console, choose the "Configuration" menu item
 <br><img src="/exercises/ex5/images/SCC_Configuration.png" width="70%">
@@ -114,7 +114,7 @@ By default, SAP Cloud Connector allows TLS connections based on all the cipher s
 4. Click on the "Save" button to persist the change
 <br><img src="/exercises/ex5/images/SCC_Save_Cipher_Suites.png" width="70%">
 
-In this exercise you have learned how to manage the list of TLS cipher suites that SAP Cloud Connector supports. A TLS cipher suite consists of 3 parts: The key exchange, the encryption algortihm and the message digest algorithm. At this point in time, the following choices seem reasonable:
+In this exercise you have learned how to manage the list of TLS cipher suites that SAP Cloud Connector supports. A TLS cipher suite consists of 3 parts: The key exchange, the encryption algorithm and the message digest algorithm. At this point in time, the following choices seem reasonable:
 - For the key exchange, DHE or ECDHE in combination with ECDSA or RSA
 - For the encryption algorithm, AES with GCM (Galois/Counter Mode)
 - For the digest algorithm, SHA-256 or SHA-384
