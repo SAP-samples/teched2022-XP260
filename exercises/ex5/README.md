@@ -65,7 +65,7 @@ The SAP Cloud Connector allows you to expose on-premise systems to the cloud in 
 
 :bulb: For this TechEd workshop, we are working with dummy connections to explain the security recommendations. The internal host configured here does not really exist in the landscape
 
-5. Enter the details for the virtual host. The hist name is "sales-system.cloud", the port is 443. As you can see in the dialog, we highly recommend to use a different host name here so as to not unnecessarily leak information about your on-premise hosts to the cloud. Click on "Next".
+5. Enter the details for the virtual host. The entry field are already prefilled with the values from the previous dialog page. However, as you can see in the dialog, we highly recommend to use a different host name here so as to not unnecessarily leak information about your on-premise hosts to the cloud. The virtual host name is "sales-system.cloud", the port is 443. Click on "Next".
 <br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Virtual.png" width="70%">
 
 6. Select "X.509 Certificate (Strict Usage) as the principal type and click on "Next"
