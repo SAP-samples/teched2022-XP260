@@ -105,5 +105,5 @@ In the previous exercise, the user from the custom identity provider was given a
 
 In this exercise you learned how to use a custom identity provider to authenticate the administrators that access the global account and subaccounts. You saw how a URL parameter can be used to choose the identity provider for authentication. Afterwards, you learned how to associate a user with a global account or subaccount, and how to assign the relevant role collections to give the user access to the cockpit functions. 
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Protect access to the SAP BTP Cockpit with multi-factor-authentication](../ex2/README.md)
 
