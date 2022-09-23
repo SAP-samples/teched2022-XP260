@@ -15,31 +15,34 @@ TODO: BTP-CLC-0007, BTP-CLC-0009,	BTP-CLC-0016, BTP-CLC-0018, BTP-CLC-0019,	BTP-
 
 In this exercise you will learn how to access the administration console of the SAP Cloud Connector and establish a connection to your subaccount in the cloud
 
-0. Open the Windows file explorer and double click the batch file go.bat in the directory C:\TechEd\SCC_Portable
+1. Open the Windows file explorer and double click the batch file go.bat in the directory C:\TechEd\SCC_Portable
 <br><img src="/exercises/ex5/images/SCC_Batch.png" width="70%">
 
-⚠️ TODO: Handle Windows firewall warning if required
+⚠️ TODO: Handle Windows firewall warning if still required
 
-1. Open the SAP Cloud Connector administration console at https://localhost:8443
+2. Open the SAP Cloud Connector administration console at https://localhost:8443
 <br><img src="/exercises/ex5/images/SCC_Logon.png" width="70%">
 
-⚠️ TODO: Handle Chrome browser warning if required
+⚠️ TODO: Handle Chrome browser warning if still required
 
-Enter then username "Administrator" and Password "manage" to login
+3. Enter then username "Administrator" and Password "manage" to login (FOR SAP TESTERS: The password on the test image was already changed to "vegas22")
+
+4. In the "Initial Setup" dialog, enter the current password "manage" and the new password "vegas22". Choose the installation type "Master", then click on "Save"
+<br><img src="/exercises/ex5/images/SCC_Initial_Setup_Save.png" width="70%">
 
 ⚠️ TODO Handle the change password dialog if required
 
-2. The overview page of the connector is displayed. Click on the button "Add Subaccount"
-<br><img src="/exercises/ex5/images/SCC_Admin_Connector_Overview.png" width="70%">
+5. The "Define Subaccount" page of the connector is displayed, where you need to provide the connectivity information for your SAP BTP subaccount
+<br><img src="/exercises/ex5/images/SCC_Define_Subaccount.png" width="70%">
 
-3. You will find the information that you need at this point on the overview page of your SAP BTP subaccount 
+6. Look up the required information on the overview page of your SAP BTP subaccount 
 <br><img src="/exercises/ex5/images/Subaccount_Details.png" width="70%">
 
-4. In the "Add Subaccount Dialog", select "US East (VA) - AWS" as the region. Copy the Subaccount ID from the subaccount overview page. Enter "TechEd Workshop" as the "Display Name". Then enter the logon e-mail and the password for your **SAP ID Service** user and click on "Save"
-<br><img src="/exercises/ex5/images/Add_Subaccount_Dialog.png" width="70%">
+7. On the "Define Subaccount" page, select "US East (VA) - AWS" as the region. Copy the Subaccount ID from the subaccount overview page. Enter "TechEd Workshop" as the "Display Name". Then enter the logon e-mail and the password for your **SAP ID Service** user and click on "Save"
+<br><img src="/exercises/ex5/images/SCC_Define_Subaccount_Save.png" width="70%">
 
-5. You have now connected your SAP BTP subaccount with your SAP Cloud Connector 
-<br><img src="/exercises/ex5/images/SCC_Subaccount_Connected.png" width="70%">
+8. You have now connected your SAP BTP subaccount with your SAP Cloud Connector 
+<br><img src="/exercises/ex5/images/SCC_BTP_Connected.png" width="70%">
 
 6. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is established
 <br><img src="/exercises/ex5/images/SCC_BTP_Cockpit.png" width="70%">
