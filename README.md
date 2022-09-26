@@ -34,7 +34,8 @@ None
     - [Exercise 5.1 - Access the SAP Cloud Connector console and connect your SAP BTP subaccount](exercises/ex5/README.md#exercise-51-access-the-sap-cloud-connector-console-and-connect-your-sap-btp-subaccount)
     - [Exercise 5.2 - Add a mapping to an on-premise system that shall be called from the cloud](exercises/ex5/README.md#exercise-52-add-a-mapping-to-an-on-premise-system-that-shall-be-called-from-the-cloud)
     - [Exercise 5.3 - Restrict access to the on-premise system and only expose relevant capabilities](exercises/ex5/README.md#exercise-53-restrict-access-to-the-on-premise-system-and-only-expose-relevant-capabilities)
-  
+    - [Exercise 5.4 - Managing the allowed TLS cipher suites](exercises/ex5/README.md#exercise-54-managing-the-allowed-tls-cipher-suites)
+
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed.
