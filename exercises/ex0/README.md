@@ -2,7 +2,7 @@
 
 ## User accounts
 
-Please find below the user names that you may use for the exercises. The user account in the SAP ID Service is specific for your seat in the workshop room. The user name in the custom identity provider is the same for all attendees. 
+Please find below the usernames that you may use for the exercises. The user account in the SAP ID Service is specific for your seat in the workshop room. The username in the custom identity provider is the same for all attendees. 
 
 **Seat number in workshop**: XY
 
