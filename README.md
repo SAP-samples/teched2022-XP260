@@ -31,7 +31,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [TODO Exercise 4 - Audit Logs](exercises/ex4/)
     - [Exercise 4.1 - Exercise 4 Sub Exercise 1 Description](exercises/ex4#exercise-41-sub-exercise-1-description)
     - [Exercise 4.2 - Exercise 4 Sub Exercise 2 Description](exercises/ex4#exercise-42-sub-exercise-2-description)
-- [IN WORK Exercise 5 - SAP Cloud Connector](exercises/ex5/)
+- [Exercise 5 - SAP Cloud Connector](exercises/ex5/)
     - [Exercise 5.1 - Access the SAP Cloud Connector console and connect your SAP BTP subaccount](exercises/ex5/README.md#exercise-51-access-the-sap-cloud-connector-console-and-connect-your-sap-btp-subaccount)
     - [Exercise 5.2 - Add a mapping to an on-premise system that shall be called from the cloud](exercises/ex5/README.md#exercise-52-add-a-mapping-to-an-on-premise-system-that-shall-be-called-from-the-cloud)
     - [Exercise 5.3 - Restrict access to the on-premise system and only expose relevant capabilities](exercises/ex5/README.md#exercise-53-restrict-access-to-the-on-premise-system-and-only-expose-relevant-capabilities)
