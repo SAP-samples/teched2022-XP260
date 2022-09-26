@@ -11,9 +11,6 @@ In this exercise you will learn about the security settings of the SAP Cloud Con
 - BTP-CLC-0017
 - BTP-CLC-0019
 
-TODO(?): BTP-CLC-0007,	BTP-CLC-0018, BTP-CLC-0020,	BTP-CLC-0021
-
-
 ## Exercise 5.1 Access the SAP Cloud Connector console and connect your SAP BTP subaccount
 
 In this exercise you will learn how to access the administration console of the SAP Cloud Connector and establish a connection to your subaccount in the cloud
@@ -125,4 +122,3 @@ Of course, these recommendations are constantly evolving, and compatibility with
 
 You have now learned how to set up a connection from the cloud to an on-premise system in SAP Cloud Connector, based on our security recommendations.
 
-Continue to - [Exercise 3 - Exercise 3 ](../ex3/README.md)
