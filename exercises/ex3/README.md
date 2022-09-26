@@ -40,15 +40,11 @@ By default, Identity Authentication service comes with 2 password policies, Stan
 
 5. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
 
-6. Fill out the remaining fields of the "Custom Password Policy" dialog and click on "Add". Your new password policy is added to the top of the list as it has the highest strength
+6. Set the "Required character groups count" to 3. Identity Authentication Service supports 4 types of character groups, uppercase letters, lowercase letters, numbers and symbols. With this setting you specific how many different groups need to be part of the password. 
+
+7. Fill out the remaining fields of the "Custom Password Policy" dialog and click on "Add". Your new password policy is added to the top of the list as it has the highest strength
 
 You now know how to create a custom password policy that you can use for additional protection of your applications. 
-
-## Exercise 3.3 TBD
-
-When you ...
-
-1. TBD
 
 ## Summary
 
