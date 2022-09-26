@@ -8,7 +8,7 @@ Please find below the user names that you may use for the exercises. The user ac
 
 **Your user account in SAP ID Service (Default Identity Provider)**: BTP\<XY\>@example.com  
 
-**Your user account in Identity Authentication Service (Custom Identity Provider)**: MyIASUser@bestrun.com
+**Your user account in Identity Authentication Service (Custom Identity Provider)**: TechEdIAS@bestrun.com
 
 ## Administration console URLs
   
