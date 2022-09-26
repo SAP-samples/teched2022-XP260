@@ -46,7 +46,7 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 
 3. Click on the "Create" button
 
-4. In the "New User" dialog, choose your custom identity provider, enter the user name and e-mail address of your user in the custom identity provider and click on "Create".
+4. In the "New User" dialog, choose your custom identity provider, enter the username and e-mail address of your user in the custom identity provider and click on "Create".
 <br><img src="/exercises/ex1/images/New_User.png" width="70%">
 
 5. The user is added to the list and is now associated with the global account. However, the user does not yet have any authorizations. To change this, click on the ">" character at the right end of the row for the new user. A dialog with the user details is displayed. So far, no role collections were assigned to the user. Click the "Assign Role Collection" button.
@@ -64,7 +64,7 @@ In exercise 1.1 we enabled users to authenticate with the custom identity provid
 
 9. On the logon page of the custom identity provider, authenticate with your credentials for the custom identity provider. This time the SAP BTP Cockpit for the global account is displayed
 
-10. Click on your user name in the upper right corner of the cockpit and choose the menu item "User Information". You are indeed signed in with the user from your custom identity provider, who is now administrator of the global account.
+10. Click on your username in the upper right corner of the cockpit and choose the menu item "User Information". You are indeed signed in with the user from your custom identity provider, who is now administrator of the global account.
 
 :bulb: How does the browser know, which identity provider to use for authentication? It is specified in the URL! 
 - To use the default identity provider, in this case SAP ID Service, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/...
