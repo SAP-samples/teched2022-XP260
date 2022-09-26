@@ -9,7 +9,7 @@ In the previous exercise, you saw how to use a custom identity provider instead 
 
 ## Exercise 2.1 Configuring the users that shall use MFA
 
-As MFA reduces the usability of the authentication process, you wouldn't want to make it mandatory for everybody. In the first step, we will therefore create a group for those user that need to authenticate with MFA. For example these could be the users with administrative rights while pure viewers might not require MFA.
+As MFA reduces the usability of the authentication process, you wouldn't want to make it mandatory for everybody. In the first step, we will therefore create a group for those users that need to authenticate with MFA. For example, these could be the users with administrative rights while pure viewers might not require MFA.
 
 1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
 
@@ -32,7 +32,7 @@ In this step we will configure the Identity Authentication service to enforce MF
 1. Choose the menu item "Applications & Resources" --> "Applications"
 <br><img src="/exercises/ex2/images/BTP_Cockpit_Application.png" width="50%">
 
-2. Click on the top level entry "SAP Business Technology Platform". The details for the identity provider configuration for accessing the cockpit are displayed
+2. Click on the top-level entry "SAP Business Technology Platform". The details for the identity provider configuration for accessing the cockpit are displayed
 <br><img src="/exercises/ex2/images/Applications_Menu_Item.png" width="50%">
 
 3. Choose the tab "Authentication and Access" and click on "Risk-Based Authentication"
@@ -57,17 +57,17 @@ When you now authenticate with your custom identity provider to access the cockp
 
 2. Open the SAP BTP Cockpit URL. If you are authenticated with SAP ID Service, choose the menu item "Security" --> "Trust Configuration" and click in "Open" for your custom identity provider.
 
-3. The logon page of your identity provider is displayed and you need to enter username and password
+3. The logon page of your identity provider is displayed, and you need to enter username and password
 <br><img src="/exercises/ex2/images/IAS_Username_Password.png" width="50%">
 
-4. The page "Two-Factor Authentication" is displayed, where you can register a device that shall generate the time-based one-time passwords (TOTP). While you can use the mentioned SAP Authenticator app, the process also works with Google Authenticator, Microsoft Authenticator and most other authenticator apps
+4. The page "Two-Factor Authentication" is displayed, where you can register a device that shall generate the time-based one-time passwords (TOTP). While you can use the mentioned SAP Authenticator app, the process also works with Google Authenticator, Microsoft Authenticator, and most other authenticator apps
 
 5. Open the authenticator app on your smart phone and create a new entry in it, by scanning the QR code
 
 6. Enter the code that the authenticator app generates into the "Passcode" field and click on "Continue"
 <br><img src="/exercises/ex2/images/IAS_Register_OTP.png" width="50%">
 
-7. You have successfully authenticated an can access the SAP BTP Cockpit
+7. You have successfully authenticated and can access the SAP BTP Cockpit
 
 
 ## Summary
