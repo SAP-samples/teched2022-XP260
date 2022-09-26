@@ -25,12 +25,10 @@ In this exercise you will learn how to access the administration console of the 
 
 ⚠️ TODO: Handle Chrome browser warning if still required
 
-3. Enter then username "Administrator" and Password "manage" to login (FOR SAP TESTERS: The password on the test image was already changed to "vegas22")
+3. Enter then username "Administrator" and Password "manage" to login ( ⚠️ FOR SAP TESTERS: The password on the test image was already changed to "vegas22")
 
 4. In the "Initial Setup" dialog, enter the current password "manage" and the new password "vegas22". Choose the installation type "Master", then click on "Save"
 <br><img src="/exercises/ex5/images/SCC_Initial_Setup_Save.png" width="70%">
-
-⚠️ TODO Handle the change password dialog if required
 
 5. The "Define Subaccount" page of the connector is displayed, where you need to provide the connectivity information for your SAP BTP subaccount
 <br><img src="/exercises/ex5/images/SCC_Define_Subaccount.png" width="70%">
