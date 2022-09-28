@@ -18,13 +18,11 @@ In this exercise you will learn how to access the administration console of the 
 1. Open the Windows file explorer and double click the batch file go.bat in the directory C:\TechEd\SCC_Portable
 <br><img src="/exercises/ex5/images/SCC_Batch.png" width="70%">
 
-2. Open the SAP Cloud Connector administration console at https://localhost:8443
-<br><img src="/exercises/ex5/images/SCC_Logon.png" width="70%">
-
-3. In the same directory, open the browser by double-clicking the shortcut "SCC" (This uses a Chrome commandline parameter to disable a warning about the untrusted TLS certificate for localhost)
+2. Open the SAP Cloud Connector administration console at https://localhost:8443 by double-clicking the shortcut "SCC" in the same directory (This uses a Chrome commandline parameter to disable a warning about the untrusted TLS certificate for localhost)
 <br><img src="/exercises/ex5/images/SCC_Browser_Shortcut.png" width="70%">
 
 3. Enter then username "Administrator" and Password "manage" to login
+<br><img src="/exercises/ex5/images/SCC_Logon.png" width="70%">
 
 4. In the "Initial Setup" dialog, enter the current password "manage" and the new password "vegas22". Choose the installation type "Master", then click on "Save"
 <br><img src="/exercises/ex5/images/SCC_Initial_Setup_Save.png" width="70%">
