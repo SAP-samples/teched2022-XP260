@@ -53,7 +53,7 @@ The SAP Cloud Connector allows you to expose on-premise systems to the cloud in 
 <br><img src="/exercises/ex5/images/SCC_Add_System_Mapping.png" width="70%"> 
 
 3. Review the list of available protocols. We recommend to use the encrypted versions of the protocols whenever possible: HTTPS, LDAPS, RFC SNC and TCP SSL. For this exercise, select HTTPS and click on "Next".
-<br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Protocol.png" width="70%"> 
+<br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Protocol_HTTPS.png" width="70%"> 
 
 4. Enter the details for the on-premise back-end system that shall be made available to the cloud. Then internal host is "ecc60.mycompany.corp", the port is 1443. Click on "Next".
 <br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Internal.png" width="70%">
