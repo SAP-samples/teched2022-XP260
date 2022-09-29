@@ -82,7 +82,7 @@ In this exercise you will specify, which resources of the on-premise system shal
 1. In the "Cloud To On-Premise" dialog, click on the "Add" button in the section "Resources Of sales-system.cloud:443"
 <br><img src="/exercises/ex5/images/SCC_Add_Resources_Button.png" width="70%">
 
-2. In the "Add Resource" dialog you can now specify, which URL can be called from the cloud. Enter "/production/accounting" as the URL path and set the "AccessPolicy" to "Path Only", to prevent calls to sub-paths. 
+2. In the "Add Resource" dialog you can now specify, which URL can be called from the cloud. Enter **/production/accounting** as the URL path and set the "AccessPolicy" to "Path Only", to prevent calls to sub-paths. 
 <br><img src="/exercises/ex5/images/SCC_Save_Resources.png" width="70%">
 
 :bulb: For an RFC-based ABAP connection you would add the names of allowed functions as resources
