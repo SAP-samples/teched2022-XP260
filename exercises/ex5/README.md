@@ -21,7 +21,7 @@ In this exercise you will learn how to access the administration console of the 
 2. Open the SAP Cloud Connector administration console at https://localhost:8443 by double-clicking the shortcut "SCC" in the same directory (This uses a Chrome command line parameter to disable a warning about the untrusted TLS certificate for localhost)
 <br><img src="/exercises/ex5/images/SCC_Browser_Shortcut.png" width="70%">
 
-3. Enter then username "Administrator" and Password "manage" to login
+3. Enter then username "Administrator" and Password "manage" to login. Please note that the username is case-sensitive
 <br><img src="/exercises/ex5/images/SCC_Logon.png" width="70%">
 
 4. In the "Initial Setup" dialog, enter the current password "manage" and the new password "vegas22". Choose the installation type "Master", then click on "Save"
