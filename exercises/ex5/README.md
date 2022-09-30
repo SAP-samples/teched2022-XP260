@@ -15,7 +15,7 @@ In this exercise you will learn about the security settings of the SAP Cloud Con
 
 In this exercise you will learn how to access the administration console of the SAP Cloud Connector and establish a connection to your subaccount in the cloud
 
-1. Open the "SCC" directory shortcut on your desktop and double click the batch file "go.bat"
+1. Open the "XP260" directory shortcut on your desktop and double click the batch file "go.bat"
 <br><img src="/exercises/ex5/images/SCC_Batch.png" width="70%">
 
 2. Open the SAP Cloud Connector administration console at https://localhost:8443 by double-clicking the browser shortcut "SCC" in the same directory (This uses a Chrome command line parameter to disable a warning about the untrusted TLS certificate for localhost)
