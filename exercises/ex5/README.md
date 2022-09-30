@@ -111,7 +111,10 @@ In this exercise you have learned how to manage the list of TLS cipher suites th
 - For the encryption algorithm, AES with GCM (Galois/Counter Mode)
 - For the digest algorithm, SHA-256 or SHA-384
 
-Of course, these recommendations are constantly evolving, and compatibility with an existing infrastructure needs to be considered.  
+Of course, these recommendations are constantly evolving, and compatibility with an existing infrastructure needs to be considered. You will find many additional sources for information and a more in-depth discussion online, for example at:
+- https://www.feistyduck.com/library/openssl-cookbook/online/openssl-command-line/recommended-suite-configuration.html
+- https://wiki.mozilla.org/Security/Server_Side_TLS
+- https://blog.cryptographyengineering.com/2012/05/19/how-to-choose-authenticated-encryption/
 
 ## Summary
 
