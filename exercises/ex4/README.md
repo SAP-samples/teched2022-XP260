@@ -1,4 +1,4 @@
-# Exercise 4 - Security Recommendations regarding audit.log
+# Exercise 4 - Security Recommendations regarding the Audit Log
 
 In this exercise you will learn about security recommendations that help protect your accounts from risks related to the audit log.
 The SAP Audit Log service is a platform service which stores all the audit logs written on your behalf by other platform services that you use. It allows you to retrieve the audit logs for your subaccount via the audit log retrieval API or view them using the SAP Audit Log Viewer service. The retention time is 90 days - there is currently no possibility to extend the retention time.
