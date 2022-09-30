@@ -2,7 +2,7 @@
 
 In this exercise you will learn about security recommendations that help protect your accounts from risks related to the audit log.
 The SAP Audit Log service is a platform service which stores all the audit logs written on your behalf by other platform services that you use. It allows you to retrieve the audit logs for your subaccount via the audit log retrieval API or view them using the SAP Audit Log Viewer service. The retention time is 90 days - there is currently no possibility to extend the retention time.
-Therefore we recommend to download regular audit logs and save them ideally in an existing and central audit log system of your choice. This can be done via the audit log retrieval API or in the SAP Audit Log Viewer service. 
+Therefore, we recommend to download regular audit logs and save them ideally in an existing and central audit log system of your choice. This can be done via the audit log retrieval API or in the SAP Audit Log Viewer service. 
 
 # Relevant Security Recommendations
 - BTP-AUD-0001
@@ -39,7 +39,7 @@ To do so click on the "Edit"-button.
 
 <br><img src="/exercises/ex4/images/AssignRolestoRoleCollection3.png" width="50%">
 
-8. Go to the users column and enter the email address of your user you are currently logged in to the cockpit. This can be either the user of the Default Identity Provider "BTP<XY>@example.com" or the user of your custom identity provider (bestrun0X-platform), which is "TechEdIAS@bestrun.com". 
+8. Go to the "Users" column and enter the email address of your user you are currently logged in to the cockpit. This can be either the user of the Default Identity Provider "BTP<XY>@example.com" or the user of your custom identity provider (bestrun0X-platform), which is "TechEdIAS@bestrun.com". 
 Enter it in the "ID" field and the "Email" field.
  
 <br><img src="/exercises/ex4/images/AssignUsertoRoleCollection1.png" width="50%"> 
@@ -54,7 +54,7 @@ Enter it in the "ID" field and the "Email" field.
  
 
 
-## Exercise 4.2  Check the audit logs and download audit log entries via the SAP Audit Log Viewer service.
+## Exercise 4.2 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service.
 
 You can download the audit logs via the audit log retrieval API to import them into your SIEM system or you can download them via the Viewer User Interface to store them as backup in your files system.
 Now you learn how to download them via the User Interface.
