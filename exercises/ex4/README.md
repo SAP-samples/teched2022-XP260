@@ -15,14 +15,18 @@ Therefore we reccommend to download regular audit logs and save them ideally in 
 1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
 
 2. Choose the menu item "Security" --> "Role Collections" and click on the "+" button to create a new role collection
-<br><img src="/exercises/ex4/images/....." width="50%">
+<br><img src="/exercises/ex4/images/CreateRoleCollection0.png" width="50%">
 
-3. ......
-<br><img src="/exercises/ex4/images/....." width="50%">
+3. In the pop-up window enter the rolecollection name "Audit Log Viewer". In the description enter "View the audit relevant logs in the audit log viewer".
+Click on the "Create"- button.
+<br><img src="/exercises/ex4/images/CreateRoleCollection1.png" width="50%">
 
-4. ....
+4. Now you can see the Audit Log Viewer role collection togehter with the other role collections. Click on ">" on the right side of the newly created role collection to open the details. 
+<br><img src="/exercises/ex4/images/CreateRoleCollection2.png" width="50%">
 
-5. S .... 
+5. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the audit log viewer service to the role collection.
+To do so click on the "Edit"-button.
+<br><img src="/exercises/ex4/images/AssignRolestoRoleCollection1.png" width="50%">
 
 ## Exercise 4.2  Download audit log entries via the User Interface 
 
