@@ -14,10 +14,10 @@ In the previous exercises you associated users to a global account or subaccount
 1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
 
 2. Choose the menu item "Security" --> "Users" and click on the "Sort" button
-<br><img src="/exercises/ex3/images/Cockpit_Users.png" width="50%">
+<br><img src="/exercises/ex3/images/Cockpit_Users.png" width="70%">
 
 3. Sort the list of users by Last Logon, ascending
-<br><img src="/exercises/ex3/images/User_List_Sort.png" width="50%">
+<br><img src="/exercises/ex3/images/User_List_Sort.png" width="70%">
 
 4. In the sorted list you will see at the top those users that have last signed in a long time ago. Maybe they don't need this access anymore?
 
@@ -30,10 +30,10 @@ By default, Identity Authentication service comes with 2 password policies, Stan
 1. Open the administration console of your Identity Authentication service tenant ( bestrunXY.accounts.ondemand.com/admin/ ). You will also find it on the [Getting Started](/exercises/ex0) page.
 
 2. Choose the menu item "Applications & Resources" --> "Password Policies"
-<br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="50%">
+<br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="70%">
 
 3. Click on the button "Add Custom Policy". The dialog "Custom Password Policy" is displayed
-<br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="50%">
+<br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="70%">
 
 4. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
 💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong
