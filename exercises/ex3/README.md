@@ -50,4 +50,4 @@ You now know how to create a custom password policy that you can use for additio
 
 In this exercise you have how to identity potentially abandoned user accounts. In addition, you have seen how you can define custom password policies in Identity Authentication service
 
-Continue to - [Exercise 4 - Audit Logs](exercises/ex4/)
+Continue to - [Exercise 4 - Audit Logs](../ex4/README.md)
