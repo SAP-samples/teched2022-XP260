@@ -60,16 +60,13 @@ Now you learn how to download them via the User Interface.
 <br><img src="/exercises/ex4/images/GotoAuditlogviewer1.png" width="70%">
  
 3. In the newly opened Audit Log Viewer UI you can accept the default timeframe or select a specific one to see the latest audit log entries. On the right side there is button to retrieve the logs after the selection of the timeframe.
+<br><img src="/exercises/ex4/images/Viewer1.png" width="70%">
  
- <br><img src="/exercises/ex4/images/Viewer1.png" width="70%">
+4. Now you can see the log entries of the specific audit relevant changes, which have been done lately. 
+<br><img src="/exercises/ex4/images/Viewer2.png" width="70%">
  
-4. Now you can see the log entries of the specific audit relevant changes which have been done lately. 
-
-  <br><img src="/exercises/ex4/images/Viewer2.png" width="70%">
- 
-5. The retention period of the logs in the cloud foundry environment is 90 days. Therefore, it is recommended to backup the audit log files or import them via the audit log retrieval API into a SIEM system.  You can download the files from the user interface. To do so click on the download button in the middle of the headline.
- 
- <br><img src="/exercises/ex4/images/Viewer2.png" width="70%">
+5. The retention period of the logs in the cloud foundry environment is 90 days. Therefore, it is recommended to backup the audit log files or import them via the audit log retrieval API into a SIEM system.  You can download the files from the user interface. To do so, click on the download button in the middle of the headline.
+<br><img src="/exercises/ex4/images/Viewer2.png" width="70%">
 
 6. In the pop-up window select place on your VM to save the "viewLogs.json" file. Click on "Save".
 <br><img src="/exercises/ex4/images/DownloadViewer3.png" width="70%">
