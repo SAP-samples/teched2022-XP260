@@ -63,12 +63,11 @@ Now you learn how to download them via the User Interface.
 <br><img src="/exercises/ex4/images/Viewer1.png" width="70%">
  
 4. Now you can see the log entries of the specific audit relevant changes, which have been done lately. 
-<br><img src="/exercises/ex4/images/Viewer2.png" width="70%">
  
 5. The retention period of the logs in the cloud foundry environment is 90 days. Therefore, it is recommended to backup the audit log files or import them via the audit log retrieval API into a SIEM system.  You can download the files from the user interface. To do so, click on the download button in the middle of the headline.
 <br><img src="/exercises/ex4/images/Viewer2.png" width="70%">
 
-6. In the pop-up window select place on your VM to save the "viewLogs.json" file. Click on "Save".
+6. In the pop-up window, select a place on your laptop to save the "viewLogs.json" file. Click on "Save".
 <br><img src="/exercises/ex4/images/DownloadViewer3.png" width="70%">
 
 You now know how to download the audit relevant log files for backup.
