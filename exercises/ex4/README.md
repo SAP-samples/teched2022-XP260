@@ -43,7 +43,7 @@ Enter it in the "ID" field and the "Email" field.
 10. Click the "save" button to save your changes.
 <br><img src="/exercises/ex4/images/AssignUsertoRoleCollection2.png" width="70%"> 
  
-11. The result will be that the users assigned have the authorizations to use the Audit Log Viewer service. You need to be logged in the cockpit with the user assigned the authorizations to be able to see the Viewer in the next step.
+11. The result will be that the user with the assigned authorizations can use the Audit Log Viewer service. You need to be logged into the cockpit with this user to be able to see the Viewer in the next step.
 <br><img src="/exercises/ex4/images/AssignUsertoRoleCollection3.png" width="70%">
  
 
