@@ -14,7 +14,7 @@ Therefore, we recommend downloading audit logs on a regular basis and save them,
 
 1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
 
-2.Go to the subaccount by clicking on the tile
+2. Go to the subaccount by clicking on the tile
 
 3. Choose the menu item "Security" --> "Role Collections" and click on the "+" button to create a new role collection
 <br><img src="/exercises/ex4/images/CreateRoleCollection0.png" width="70%">
