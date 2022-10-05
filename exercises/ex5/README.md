@@ -75,7 +75,7 @@ The SAP Cloud Connector allows you to expose on-premise systems to the cloud in 
 9. You have now successfully added a mapping to an internal system to the SAP Cloud Connector configuration
 <br><img src="/exercises/ex5/images/SCC_Cloud_To_On-Premise_With_Entry.png" width="70%">
 
-10. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is established and you also see virtual host name of the system that you just configured in the SAP Cloud Connector
+10. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is established and you also see the virtual host name of the system that you just configured in the SAP Cloud Connector
 <br><img src="/exercises/ex5/images/SCC_BTP_Connected_With_System.png" width="70%">
 
 ## Exercise 5.3 Restrict access to the on-premise system and only expose relevant capabilities
