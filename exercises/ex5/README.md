@@ -39,7 +39,7 @@ In this exercise you will learn how to access the administration console of the 
 8. You have now connected your SAP BTP subaccount with your SAP Cloud Connector 
 <br><img src="/exercises/ex5/images/SCC_BTP_Connected.png" width="70%">
 
-6. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is established. However, at this point there are no on-premise endpoints that would accept calls from the cloud. This is something that we will have to enable explicitly, in the next execise. 
+6. Open your SAP BTP Cockpit, navigate to the subaccount and choose the menu item "Connectivity" --> "Cloud Connectors". The connection to your on-premise SAP Cloud Connector is established. However, at this point there are no on-premise endpoints that would accept calls from the cloud. This is something that we will have to enable explicitly, in the next exercise. 
 <br><img src="/exercises/ex5/images/SCC_BTP_Cockpit.png" width="70%">
 
 ## Exercise 5.2 Add a mapping to an on-premise system that shall be called from the cloud
@@ -52,7 +52,7 @@ The SAP Cloud Connector allows you to expose on-premise systems to the cloud in 
 2. In the "Add System Mapping Dialog", select the back-end type "ABAP System" and click on "Next"
 <br><img src="/exercises/ex5/images/SCC_Add_System_Mapping.png" width="70%"> 
 
-3. Review the list of available protocols. We recommend to use the encrypted versions of the protocols whenever possible: HTTPS, LDAPS, RFC SNC and TCP SSL. For this exercise, select HTTPS and click on "Next".
+3. Review the list of available protocols. We recommend using the encrypted versions of the protocols whenever possible: HTTPS, LDAPS, RFC SNC and TCP SSL. For this exercise, select HTTPS and click on "Next".
 <br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Protocol_HTTPS.png" width="70%"> 
 
 4. Enter the details for the on-premise back-end system that shall be made available to the cloud. The internal host is "ecc60.mycompany.corp", the port is 1443. Click on "Next".
@@ -60,7 +60,7 @@ The SAP Cloud Connector allows you to expose on-premise systems to the cloud in 
 
 :bulb: For this TechEd workshop, we are working with dummy connections to explain the security recommendations. The internal host configured here does not really exist in the landscape
 
-5. Enter the details for the virtual host. The entry fields are already prefilled with the values from the previous dialog page. However, as you can see in the dialog, we highly recommend to use a different host name. This prevents information about your on-premise hosts from becoming visible in the cloud. The virtual host name is "sales-system.cloud", the port is 443. Click on "Next".
+5. Enter the details for the virtual host. The entry fields are already prefilled with the values from the previous dialog page. However, as you can see in the dialog, we highly recommend using a different host name. This prevents information about your on-premise hosts from becoming visible in the cloud. The virtual host name is "sales-system.cloud", the port is 443. Click on "Next".
 <br><img src="/exercises/ex5/images/SCC_Add_System_Mapping_Virtual.png" width="70%">
 
 6. Select "X.509 Certificate (Strict Usage) as the principal type and click on "Next"
@@ -92,7 +92,7 @@ In this exercise you will specify, which resources of the on-premise system shal
 
 ## Exercise 5.4 Managing the allowed TLS cipher suites
 
-By default, SAP Cloud Connector allows TLS connections based on all the cipher suites that are supported by the Java virtual machine. Some of these cipher suite are weaker than others. We recommend to disable all weak cipher suites that are not required for compatibility reasons.
+By default, SAP Cloud Connector allows TLS connections based on all the cipher suites that are supported by the Java virtual machine. Some of these cipher suites are weaker than others. We recommend disabling all weak cipher suites that are not required for compatibility reasons.
 
 1. In the SAP Cloud Connector administration console, choose the "Configuration" menu item
 <br><img src="/exercises/ex5/images/SCC_Configuration.png" width="70%">
