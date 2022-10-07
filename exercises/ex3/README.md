@@ -21,7 +21,7 @@ In the previous exercises you associated users to a global account or subaccount
 
 4. In the sorted list you will see at the top those users that have last signed in a long time ago. Maybe they don't need this access anymore?
 
-5. Sort the list of users by Last Logon, descending. If there are any users that never used this account at all, then they will show up at the top of the page. These might be good candidates for a clean-up. If there are no users that never used the account, then the top of the list show the users that accessed the system most recently
+5. Sort the list of users by Last Logon, descending. If there are any users that never used this account at all, then they will show up at the top of the page. These might be good candidates for a clean-up. If there are no users that never used the account, then the top of the list shows the users that accessed the system most recently
 
 ## Exercise 3.2 Defining a custom password policy
 
