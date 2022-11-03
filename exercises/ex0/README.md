@@ -12,8 +12,8 @@ Please find below the usernames that you may use for the exercises. The user acc
 
 ## Administration console URLs
   
-| Seat Number | Global Account Cockpit | Identity Authentication Service console |
-| ----------- | ---------------------- | --------------------------------------- |
+| Seat  | Global Account Cockpit | Identity Authentication Service console |
+| ----- | ---------------------- | --------------------------------------- |
 | 01 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/e286338d-1e66-4974-b013-7db15513e55a | https://bestrun01.accounts.ondemand.com/admin/ |
 | 02 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/0905619e-2d98-423a-a4d9-05bf6eda6001 | https://bestrun02.accounts.ondemand.com/admin/ |
 | 03 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/053932d4-f375-4ad0-acc4-6de2d7684d81 | https://bestrun03.accounts.ondemand.com/admin/ |
@@ -64,9 +64,9 @@ Please find below the usernames that you may use for the exercises. The user acc
 | 48 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/20ef6ab1-7fcd-436c-a299-e33d7236caf6 | https://bestrun05.accounts.ondemand.com/admin/ |
 | 49 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/4323f920-7552-4ae5-afcc-8cf82837b784 | https://bestrun05.accounts.ondemand.com/admin/ |
 | 50 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/3e6b9a51-7a56-4625-a862-85694300006e | https://bestrun05.accounts.ondemand.com/admin/ |
+| 51 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/4c63c22e-3dd6-4ba1-a01c-bfcab4bc0cb5 | https://bestrun05.accounts.ondemand.com/admin/ |
+| 52 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/a4606232-a3a8-40d4-8b55-5d53aa8cb0af | https://bestrun05.accounts.ondemand.com/admin/ |
 
-| 51 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/6c7fa285-fbe0-41ed-8c51-52b4b5e6dd4a | https://bestrun05.accounts.ondemand.com/admin/ |
-| 52 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/6c7fa285-fbe0-41ed-8c51-52b4b5e6dd4a | https://bestrun05.accounts.ondemand.com/admin/ |
 | 53 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/6c7fa285-fbe0-41ed-8c51-52b4b5e6dd4a | https://bestrun05.accounts.ondemand.com/admin/ |
 | 54 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/6c7fa285-fbe0-41ed-8c51-52b4b5e6dd4a | https://bestrun05.accounts.ondemand.com/admin/ |
 | 55 | https://cockpit.eu10.hana.ondemand.com/cockpit/#/globalaccount/6c7fa285-fbe0-41ed-8c51-52b4b5e6dd4a | https://bestrun05.accounts.ondemand.com/admin/ |
