@@ -6,7 +6,7 @@ Please find below the usernames that you may use for the exercises. The user acc
 
 **Seat number in workshop**: XY
 
-**Your user account in SAP ID Service (Default Identity Provider)**: BTP\<XY\>@example.com  
+**Your user account in SAP ID Service (Default Identity Provider)**: xp260-0\<XY\>@bestrunsap.com  
 
 **Your user account in Identity Authentication Service (Custom Identity Provider)**: TechEdIAS@bestrun.com
 
