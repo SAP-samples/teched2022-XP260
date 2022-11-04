@@ -22,7 +22,7 @@ As MFA reduces the usability of the authentication process, you wouldn't want to
 4. To assign users to the group, click the "Add" button above the list of users.
 <br><img src="/exercises/ex2/images/Add_Users_to_Group.png" width="70%">
 
-5. Mark your customer identity provider user in the list and click save. The user is now a member of the group "BTP_Admins"
+5. Mark your custom identity provider user in the list and click save. The user is now a member of the group "BTP_Admins"
 <br><img src="/exercises/ex2/images/Add_User_And_Save.png" width="70%">
 
 ## Exercise 2.2 Configuring MFA for accessing the SAP BTP Cockpit
