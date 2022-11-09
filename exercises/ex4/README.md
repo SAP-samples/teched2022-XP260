@@ -50,7 +50,7 @@ Enter it in the "ID" field and the "Email" field.
 
 ## Exercise 4.2 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service.
 
-You can download the audit logs via the audit log retrieval API to import them into your SIEM system or you can download them via the Viewer User Interface to store them as backup in your files system.
+You can download the audit logs via the audit log retrieval API to import them into your Security Information and Event Management (SIEM) system or you can download them via the Viewer User Interface to store them as backup on your file system.
 Now you learn how to download them via the User Interface.
 
 1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
@@ -62,9 +62,9 @@ Now you learn how to download them via the User Interface.
 3. In the newly opened Audit Log Viewer UI you can accept the default timeframe or select a specific one to see the latest audit log entries. On the right side there is button to retrieve the logs after the selection of the timeframe.
 <br><img src="/exercises/ex4/images/Viewer1.png" width="70%">
  
-4. Now you can see the log entries of the specific audit relevant changes, which have been done lately. 
+4. Now you can see the log entries of the specific audit relevant changes, which have been performed lately. 
  
-5. The retention period of the logs in the cloud foundry environment is 90 days. Therefore, it is recommended to backup the audit log files or import them via the audit log retrieval API into a SIEM system.  You can download the files from the user interface. To do so, click on the download button in the middle of the headline.
+5. The retention period of the logs in the Cloud Foundry environment is 90 days. Therefore, it is recommended to backup the audit log files or import them via the audit log retrieval API into a SIEM system.  You can download the files from the user interface. To do so, click on the download button in the middle of the headline.
 <br><img src="/exercises/ex4/images/Viewer2.png" width="70%">
 
 6. In the pop-up window, select a place on your laptop to save the "viewLogs.json" file. Click on "Save".
