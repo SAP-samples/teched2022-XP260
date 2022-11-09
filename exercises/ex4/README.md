@@ -55,7 +55,7 @@ Now you learn how to download them via the User Interface.
 
 1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
 
-2. Navigate to "Services " > "Instances and Subscriptions". Under Subscriptions you will see the Audit Log Viewer service. Nex to the text field there is a link to the user interface. Click on it.
+2. Navigate to "Services " > "Instances and Subscriptions". Under Subscriptions you will see the Audit Log Viewer service. Next to the text field there is a link to the user interface. Click on it.
  
 <br><img src="/exercises/ex4/images/GotoAuditlogviewer1.png" width="70%">
  
