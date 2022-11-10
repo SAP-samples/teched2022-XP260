@@ -36,8 +36,7 @@ To do so click on the "Edit"-button.
 8. Mark the two roles called "Auditlog_Auditor" and click the "Add"-button. 
 <br><img src="/exercises/ex4/images/AssignRolestoRoleCollection3.png" width="70%">
 
-9. Go to the "Users" section and enter the email address of the user, with which you are currently logged in to the cockpit. This should be the user of the Default Identity Provider "xp260-0XY@bestrunsap.com". Enter it in the "ID" field and the "Email" field.
-
+9. Go to the "Users" section and enter the email address of the user, with which you are currently logged in to the cockpit. This should be the user of the Default Identity Provider "xp260-0\<XY\>@bestrunsap.com". Enter it in the "ID" field and the "Email" field.
 <br><img src="/exercises/ex4/images/AssignUsertoRoleCollection1.png" width="70%"> 
  
 10. Click the "save" button to save your changes.
