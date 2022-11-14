@@ -18,7 +18,7 @@ In this exercise you will learn how to access the administration console of the 
 1. Open the "XP260" directory shortcut on your desktop and double click the batch file "go.bat". This starts the portable version of the SAP Cloud Connector, which we are using in this exercise. In most regular scenarios you would be using the installer to deploy SAP Cloud Connector on the client. 
 <br><img src="/exercises/ex5/images/SCC_Batch.png" width="70%">
 
-2. Open the SAP Cloud Connector administration console at https://localhost:8443 by double-clicking the browser shortcut "SCC" in the same directory (This uses a Chrome command line parameter to disable a warning about the untrusted TLS certificate for localhost)
+2. Close the browser completely. This is required as we will use Chrome with a command line parameter to disable a warning about the untrusted TLS certificate for localhost. Open the SAP Cloud Connector administration console at https://localhost:8443 by double-clicking the browser shortcut "SCC" in the same directory
 <br><img src="/exercises/ex5/images/SCC_Browser_Shortcut.png" width="70%">
 
 3. Enter then username "Administrator" and Password "manage" to login. Please note that the username is case-sensitive
