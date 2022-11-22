@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-XP260)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-XP260)
+
 # XP260 - Configuring SAP BTP Services Securely
 
 ## Description
