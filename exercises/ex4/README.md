@@ -75,4 +75,4 @@ You now know how to download the audit relevant log files for backup.
 
 In this exercise you have configured the SAP Audit Log Viewer service to see the audit relevant log entries. In addition, you have seen how to download the audit.log files before the retention period ends.
 
-Continue to - [Exercise 5 - SAP Cloud Connector](../ex5/README.md)
+
