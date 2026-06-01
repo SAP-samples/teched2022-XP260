@@ -12,7 +12,7 @@ In this session attendees will learn about the recently published security recom
 
 ## Requirements
 
-None
+None. You can start right away.
 
 ## Exercises
 
