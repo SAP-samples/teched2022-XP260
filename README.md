@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session XP260 - Configuring SAP BTP Services Securely.  
+This repository contains the material for the SAP TechEd 2022 session XP260 - Configuring SAP BTP Services Securely. Have fun exploring.  
 
 ## Overview
 
